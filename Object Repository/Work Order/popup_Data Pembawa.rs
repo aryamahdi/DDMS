@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_Data Pembawa</name>
+   <tag></tag>
+   <elementGuidId>fe3593b0-f803-407c-9c4d-5c43f66e00ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='g3BQ_x0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;g3BQ_x0&quot;)[count(. | //*[(text() = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK' or . = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK')]) = count(//*[(text() = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK' or . = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#g3BQ_x0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>931effbf-00dd-4fd5-bdea-4dff1f7ba75a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g3BQ_x0</value>
+      <webElementGuid>4167ca11-597d-41e7-9a31-0d1bfb93ee43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-messagebox-window  z-window z-window-highlighted z-window-shadow</value>
+      <webElementGuid>cba5d1e5-9649-412e-ad79-917a5ea58b9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK</value>
+      <webElementGuid>955dd203-d7e9-4e70-b34b-1543d78877b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[6]</value>
+      <webElementGuid>b13946da-8336-4107-90b5-e05e6bb9e33d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='g3BQ_x0']</value>
+      <webElementGuid>66cea1f1-9be1-4e2d-8b5c-e0b382736736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
+      <webElementGuid>305f648b-6548-46b0-8c88-d521abab1ed6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]</value>
+      <webElementGuid>5158b300-b590-48d3-9796-f5d1de7593f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'g3BQ_x0' and (text() = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK' or . = 'ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK')]</value>
+      <webElementGuid>db8cc9a8-ca12-46fb-9f4e-406813d89fc8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

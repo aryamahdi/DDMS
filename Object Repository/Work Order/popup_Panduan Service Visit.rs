@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_Panduan Service Visit</name>
+   <tag></tag>
+   <elementGuidId>d0eaee86-d9ca-4dd0-ab3e-ed058e2c128b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='g3BQ540']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[4][count(. | //*[(text() = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK' or . = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK')]) = count(//*[(text() = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK' or . = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#g3BQ540</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;X PANDUAN SERVICE VISIT Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>eb7b0b1e-6725-4e90-9484-a10205da6846</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g3BQ540</value>
+      <webElementGuid>2be7fd96-6f58-4cb2-94f7-55c0b6474432</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-window z-window-noborder z-window-noheader z-window-modal z-window-shadow</value>
+      <webElementGuid>fc4384c5-e8db-4289-b569-68cd59868b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK</value>
+      <webElementGuid>1d06e1a2-b7eb-450e-a5a1-c42e24f2cf06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[4]</value>
+      <webElementGuid>078c1fe2-f080-4ee1-a72a-828c7dab0ab8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='g3BQ540']</value>
+      <webElementGuid>93c64c3c-6cf7-46a7-bf46-13a8ec130ea8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[2]</value>
+      <webElementGuid>2dab0dc9-3b79-4412-9e8b-5659227f62aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]</value>
+      <webElementGuid>d63ebbd8-1843-41d8-8a9c-664f0af8341a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'g3BQ540' and (text() = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK' or . = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK')]</value>
+      <webElementGuid>10c43b5e-3cab-4046-8bdd-265bf1e6c83f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
