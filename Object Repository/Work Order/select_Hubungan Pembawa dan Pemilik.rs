@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>cf7349dd-1304-492d-83a6-5d63f11bd3aa</webElementGuid>
+      <webElementGuid>ff949fc4-cc78-40b4-ad33-1a94b8f1f3e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>g3BQss1</value>
-      <webElementGuid>01c3cf37-ab1d-4c8f-9536-86402bc35168</webElementGuid>
+      <webElementGuid>36c19318-de24-4aa5-bda4-e0571f46d36f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>1a9edeef-3de9-4bc7-89c2-d251c8a2fe68</webElementGuid>
+      <webElementGuid>4bde0d0f-0a63-425e-a99a-00f911687a63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Orang TuaAnakSaudaraKaryawanTemanSuami/IstriLainnyaMilik Sendiri</value>
-      <webElementGuid>a44b2a6d-b30d-42e5-bfed-018cb8147eba</webElementGuid>
+      <webElementGuid>543ae875-fdda-43ad-97f6-fed019432f95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;g3BQss1&quot;)</value>
-      <webElementGuid>4f4662dc-95f2-4f19-a780-d8be84ec4f70</webElementGuid>
+      <webElementGuid>f93e0a37-ad4d-4044-a2ca-7729aa7b888f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='g3BQss1']</value>
-      <webElementGuid>ee3e1c21-e593-4edb-a73b-79a7c2e156c4</webElementGuid>
+      <webElementGuid>214493d3-f8ba-4429-8d18-1fa83b993ca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='g3BQvs1']/select</value>
-      <webElementGuid>1397fe48-ca38-49fe-9a36-4868c5583c09</webElementGuid>
+      <webElementGuid>d24b2cf2-d5ae-4086-b068-aca12dd5a97b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::select[1]</value>
-      <webElementGuid>5afa0eb0-e23e-493d-846d-f77de9d2014b</webElementGuid>
+      <webElementGuid>e39bf173-ddf8-4db0-ab95-48bd5824931c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hubungan Pembawa &amp; Pemilik'])[1]/following::select[1]</value>
-      <webElementGuid>8ab27727-2ddf-4128-a4b3-631a2aa91789</webElementGuid>
+      <webElementGuid>202f16de-1f36-47f8-b978-9e27a9b7d20d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Telp / HP'])[1]/preceding::select[1]</value>
-      <webElementGuid>896d98b7-126c-400c-865b-7b9db76f03be</webElementGuid>
+      <webElementGuid>41106fc9-75a1-4f3a-a9ce-046cac46d14a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::select[1]</value>
-      <webElementGuid>2d47e89f-2179-4276-af0c-042a1338eabd</webElementGuid>
+      <webElementGuid>37acde57-12b7-4966-8a7d-df8001040b1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>63b53830-e07b-4452-b23f-5b966c422d6d</webElementGuid>
+      <webElementGuid>03467cf4-a66d-4b85-88cb-42ea38653576</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'g3BQss1' and (text() = 'Orang TuaAnakSaudaraKaryawanTemanSuami/IstriLainnyaMilik Sendiri' or . = 'Orang TuaAnakSaudaraKaryawanTemanSuami/IstriLainnyaMilik Sendiri')]</value>
-      <webElementGuid>b01e6697-60f5-499e-aa29-8dd53ba63837</webElementGuid>
+      <webElementGuid>9dd86d6a-100a-48ad-9201-5a98b71c267d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

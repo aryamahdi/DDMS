@@ -7,18 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='g3BQ9s']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'ZK Data Workorder dengan nomor' or . = 'ZK Data Workorder dengan nomor')]</value>
+         <value>/html/body/div[5]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#g3BQ9s</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/div[5]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>32ecee63-5547-4de0-84a5-ebef9c512bfe</webElementGuid>
+      <webElementGuid>ef5eb30c-778d-4f5d-8349-f78c207d196b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>id</name>
       <type>Main</type>
       <value>g3BQ9s</value>
-      <webElementGuid>d6ffcc3b-2086-4d6e-a66c-233c0fbb3597</webElementGuid>
+      <webElementGuid>dbc9bc75-fb59-49ec-9f15-d3a922c92790</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,23 +49,23 @@
       <name>class</name>
       <type>Main</type>
       <value>z-messagebox-window  z-window z-window-highlighted z-window-shadow</value>
-      <webElementGuid>0e547a88-8444-4147-9314-8105f1443adc</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>ZK Data Workorder dengan nomor</value>
-      <webElementGuid>20a8bf58-d316-470b-82f3-d7a8a4c94e36</webElementGuid>
+      <webElementGuid>ddae2442-2601-42e7-9b53-f8d4ebb904d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ZK</value>
+      <webElementGuid>021f30be-e36c-4429-9c1b-ec33f61afc30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;g3BQ9s&quot;)</value>
-      <webElementGuid>9e4bf022-7e3e-48a5-91bb-ccf4835007d8</webElementGuid>
+      <value>/html/body/div[5]</value>
+      <webElementGuid>6fa8aa3f-aabc-44f7-bc37-b645db0608dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='g3BQ9s']</value>
-      <webElementGuid>884a7d71-be4f-44c9-b977-a0e0b2c2ff62</webElementGuid>
+      <webElementGuid>b8a94d06-7809-4187-af9c-8b68881f7950</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
-      <webElementGuid>e21fcf13-8e27-4f6d-a127-443701951b13</webElementGuid>
+      <webElementGuid>c5511f00-a929-4e38-a1a1-82fd59ee1e11</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]</value>
-      <webElementGuid>4e3bf45d-2b1b-46bf-8aa8-26a9656e87b0</webElementGuid>
+      <webElementGuid>4bee55a3-7f31-4ffb-a9d0-49b7fdb26816</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
  Tipe Pit : REGULER OK' or . = 'ZK Data Workorder dengan nomor VST-X6979-24-12-00003 berhasil disimpan.
  Nomor Antrian Anda : null.
  Tipe Pit : REGULER OK')]</value>
-      <webElementGuid>b616829a-4c16-4816-9c21-ffb8ef12a3b5</webElementGuid>
+      <webElementGuid>92fe22dd-57cf-481a-b55f-4b6e0c7ab958</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

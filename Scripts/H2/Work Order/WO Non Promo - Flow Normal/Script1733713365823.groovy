@@ -23,38 +23,6 @@ WebUI.click(findTestObject('Dashboard/ddl_Work Order'))
 
 WebUI.click(findTestObject('Dashboard/link_Work Order'))
 
-WebUI.click(findTestObject('Work Order/input_WO Visit'))
-
-WebUI.verifyElementPresent(findTestObject('Work Order/popup_Panduan Service Visit'), 10)
-
-WebUI.click(findTestObject('Work Order/button_Ok Panduan Service Visit'))
-
-WebUI.setText(findTestObject('Work Order/input_Alamat'), Alamat)
-
-WebUI.click(findTestObject('Work Order/input_Provinsi'))
-
-WebUI.setText(findTestObject('Work Order/input_Nama Provinsi'), Provinsi)
-
-WebUI.sendKeys(findTestObject('Work Order/input_Nama Provinsi'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Work Order/input_KabupatenKota'))
-
-WebUI.setText(findTestObject('Work Order/input_Nama Kota'), Kabupaten)
-
-WebUI.sendKeys(findTestObject('Work Order/input_Nama Kota'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Work Order/input_Kecamatan'))
-
-WebUI.setText(findTestObject('Work Order/input_Nama Kecamatan'), Kecamatan)
-
-WebUI.sendKeys(findTestObject('Work Order/input_Nama Kecamatan'), Keys.chord(Keys.ENTER))
-
-WebUI.click(findTestObject('Work Order/input_Kelurahan'))
-
-WebUI.setText(findTestObject('Work Order/input_Nama Kelurahan'), Kelurahan)
-
-WebUI.sendKeys(findTestObject('Work Order/input_Nama Kelurahan'), Keys.chord(Keys.ENTER))
-
 WebUI.selectOptionByValue(findTestObject('Work Order/select_Tipe KPB'), TipeKPB, true)
 
 WebUI.selectOptionByValue(findTestObject('Work Order/select_Nama Mekanik'), NamaMekanik, true)
@@ -100,10 +68,6 @@ WebUI.click(findTestObject('Work Order/button_Simpan Data Pembawa'))
 WebUI.verifyElementPresent(findTestObject('Work Order/popup_Data Pembawa'), 10)
 
 WebUI.click(findTestObject('Work Order/button_Ok Popup Data Pembawa'))
-
-WebUI.verifyElementPresent(findTestObject('Work Order/popup_Panduan Service Visit'), 10)
-
-WebUI.click(findTestObject('Work Order/button_Ok Panduan Service Visit'))
 
 WebUI.doubleClick(findTestObject('Work Order/canvas_SA'))
 

@@ -13,8 +13,12 @@
          <key>CSS</key>
          <value>#g3BQvn</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;g3BQvn&quot;)[count(. | //*[(text() = 'Cek Promo' or . = 'Cek Promo')]) = count(//*[(text() = 'Cek Promo' or . = 'Cek Promo')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f800202b-208b-4055-9eed-717f25863ed1</webElementGuid>
+      <webElementGuid>39da6f20-406c-4965-8bbb-5f16137c4f8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e5e30bd1-48f7-49e7-82b8-c383ee18557c</webElementGuid>
+      <webElementGuid>d9083083-6209-4d98-b730-cf30d8806f91</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>g3BQvn</value>
-      <webElementGuid>8731c55a-c595-4aec-838a-fdcecb42e46f</webElementGuid>
+      <webElementGuid>25eb969b-38fe-4b20-a4af-2ec95d3c7b3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>z-button</value>
-      <webElementGuid>ee4a7434-549a-4ec8-a347-d0dc2744c80a</webElementGuid>
+      <webElementGuid>d412a756-75e5-4fe7-b1f5-f73ab2c232fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,15 +65,15 @@
       <name>text</name>
       <type>Main</type>
       <value>Cek Promo</value>
-      <webElementGuid>f2aa476b-3f17-486d-88d8-ab7f895d28be</webElementGuid>
+      <webElementGuid>bb7b9323-6f33-4b4e-9ea2-0b50a1d821bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;g3BQvn&quot;)</value>
-      <webElementGuid>30383a73-b5f5-4192-b48b-12a06a6b0641</webElementGuid>
+      <value>//body[1]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/div[11]/div[2]/div[5]/button[1]</value>
+      <webElementGuid>28cee24c-aa33-420d-b329-9c16b5591902</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='g3BQvn']</value>
-      <webElementGuid>4d175994-dd1f-413e-8ebc-a6a965c503bc</webElementGuid>
+      <webElementGuid>e3e7edd7-9144-4d11-a5f4-310498c06df0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='g3BQsn']/button</value>
-      <webElementGuid>b53e13c1-3238-4fda-bec0-b7609177a325</webElementGuid>
+      <webElementGuid>1134bd61-441f-4d32-abd5-8c03eb8579a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PROMO'])[1]/following::button[1]</value>
-      <webElementGuid>06dd3ba8-8faa-4520-854a-4f023338733a</webElementGuid>
+      <webElementGuid>a0d785cb-d21f-4c94-8d41-114a74f10b82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rp.'])[36]/following::button[1]</value>
-      <webElementGuid>d0faf9dc-7091-4800-b1c8-0834b46d1015</webElementGuid>
+      <webElementGuid>54439fe8-214a-4e53-9a86-834be7d671cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Program'])[1]/preceding::button[1]</value>
-      <webElementGuid>464367c9-5678-4216-b691-ed90601f5fb6</webElementGuid>
+      <webElementGuid>ac325544-8de6-4218-9a86-d1eb152b09bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Diskon'])[1]/preceding::button[1]</value>
-      <webElementGuid>359c8c16-ee2a-48e3-9b3c-3f535d3aa474</webElementGuid>
+      <webElementGuid>e131a85e-b26b-46c7-9dae-9335e831020d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cek Promo']/parent::*</value>
-      <webElementGuid>548a3436-fdd2-44a2-ae93-011975d3a55d</webElementGuid>
+      <webElementGuid>24810db5-4d5d-4f35-8b61-e7bbef609dd2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/button</value>
-      <webElementGuid>6a4997c6-8ada-4e0c-82d9-992ccbdefdd7</webElementGuid>
+      <webElementGuid>cdafc3b8-263d-4030-be93-35beebec2c2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'g3BQvn' and (text() = 'Cek Promo' or . = 'Cek Promo')]</value>
-      <webElementGuid>c786c90a-e9a8-47e7-b7fb-52590d4e5664</webElementGuid>
+      <webElementGuid>f5f7db17-e91d-42a8-9889-f35d56ad5c63</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
