@@ -10,21 +10,8 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b8194758-1f10-45cf-97f3-770724568a6a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
       <variableId>40599c20-cd27-4cde-9da5-486d9b38cca2</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'Ahass Induk'</defaultValue>
-      <description></description>
-      <id>b8194758-1f10-45cf-97f3-770724568a6a</id>
-      <masked>false</masked>
-      <name>Lokasi</name>
-   </variable>
    <variable>
       <defaultValue>'Invalid'</defaultValue>
       <description></description>

@@ -17,31 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Maximize Window Browser'
 WebUI.maximizeWindow()
 
+'Navigate To DDMS H2'
 WebUI.navigateToUrl(GlobalVariable.URL_H2)
 
-WebUI.verifyElementPresent(findTestObject('Login/label_Sign in - DDMS'), 10)
+'Verify \'Sign in - DDMS\' Label is Present'
+WebUI.verifyElementPresent(findTestObject('H2/Login/label_Sign in - DDMS'), 10)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign in - DDMS_username'), GlobalVariable.Username)
+'Enter Username'
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_username'), GlobalVariable.Username)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
+'Enter Password'
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('Object Repository/Login/button_Sign in'))
+'Click \'Sign in\' Button'
+WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
 
-WebUI.verifyElementPresent(findTestObject('Login/label_Lokasi Service'), 10)
+'Verify \'Lokasi Service\' Label is Present'
+WebUI.verifyElementPresent(findTestObject('H2/Login/label_Lokasi Service'), 10)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Login/select_Pilih Lokasi Service'), Lokasi, true)
+'Select Location from Dropdown'
+WebUI.selectOptionByValue(findTestObject('Object Repository/H2/Login/select_Pilih Lokasi Service'), Lokasi, true)
 
-WebUI.click(findTestObject('Object Repository/Login/button_Confirm'))
+'Click \'Confirm\' Button'
+WebUI.click(findTestObject('Object Repository/H2/Login/button_Confirm'))
 
-WebUI.verifyElementPresent(findTestObject('Login/popup_Redirect Message'), 10)
+'Verify Redirect Message Popup Appears'
+WebUI.verifyElementPresent(findTestObject('H2/Login/popup_Redirect Message'), 10)
 
-WebUI.click(findTestObject('Object Repository/Login/button_Ya Redirect Message'))
+'Click \'Yes\' on Redirect Message'
+WebUI.click(findTestObject('Object Repository/H2/Login/button_Ya Redirect Message'))
 
-WebUI.verifyElementPresent(findTestObject('Dashboard/label_DDMS'), 10)
-
-not_run: WebUI.closeBrowser()
+'Verify \'DDMS\' Label is Present on Dashboard'
+WebUI.verifyElementPresent(findTestObject('H2/Dashboard/label_DDMS'), 10)
 

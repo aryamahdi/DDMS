@@ -19,6 +19,26 @@
       "proposedLocatorMethod": "SMART_LOCATOR",
       "recoveryMethod": "SMART_LOCATOR",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Work Order/button_Ok Panduan Service Visit_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Work Order/button_Ok Popup Data Pembawa",
+      "brokenLocator": "//body[1]/div[4]/div[2]/div[2]/div[1]/button[1][count(. | //*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)]) \u003d count(//*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Customer dengan nama dwi surahman dua cust berhasil disimpan.\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Work Order/button_Ok Popup Data Pembawa_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Work Order/button_Ok Work Order",
+      "brokenLocator": "//body[1]/div[5]/div[2]/div[2]/div[1]/button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Work Order/button_Ok Work Order_position.png"
     }
   ]
 }

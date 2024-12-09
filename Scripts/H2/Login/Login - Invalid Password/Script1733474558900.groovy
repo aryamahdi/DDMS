@@ -23,15 +23,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl(GlobalVariable.URL_H2)
 
-WebUI.verifyElementPresent(findTestObject('Login/label_Sign in - DDMS'), 10)
+WebUI.verifyElementPresent(findTestObject('H2/Login/label_Sign in - DDMS'), 10)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign in - DDMS_username'), InvalidUsername)
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_username'), InvalidUsername)
 
-WebUI.setText(findTestObject('Object Repository/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
 
-WebUI.click(findTestObject('Object Repository/Login/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
 
-WebUI.verifyElementPresent(findTestObject('Login/label_Error. User Name Not Valid'), 10)
+WebUI.verifyElementPresent(findTestObject('H2/Login/label_Error. User Name Not Valid'), 10)
 
 not_run: WebUI.closeBrowser()
 

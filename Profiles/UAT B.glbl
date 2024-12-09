@@ -6,8 +6,13 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://web-h2-uat-b.eksad.com/ddms/login.zul'</initValue>
+      <initValue>'https://web-h2-uat-b.eksad.com/ddms/'</initValue>
       <name>URL_H2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://web-h3-uat-b.eksad.com/ddms/'</initValue>
+      <name>URL_H3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
