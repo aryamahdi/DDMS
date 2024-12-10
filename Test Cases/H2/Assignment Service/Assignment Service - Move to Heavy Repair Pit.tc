@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assignment Service - Move to Heavy Repair Pit</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f2e16f96-1411-4e0f-955c-a6d49a82b77a</testCaseGuid>
+</TestCaseEntity>

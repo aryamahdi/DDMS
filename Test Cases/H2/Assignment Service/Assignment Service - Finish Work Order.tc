@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assignment Service - Finish Work Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>404e9ff1-757b-418c-a1fa-843f87bfcfee</testCaseGuid>
+</TestCaseEntity>

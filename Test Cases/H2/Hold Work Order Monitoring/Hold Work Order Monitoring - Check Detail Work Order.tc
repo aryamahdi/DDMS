@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hold Work Order Monitoring - Check Detail Work Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45f255f0-067d-4797-ab10-cafc0ee31f55</testCaseGuid>
+</TestCaseEntity>

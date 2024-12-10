@@ -39,6 +39,65 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Work Order/button_Ok Work Order_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Work Order/button_Ok Popup Data Pembawa",
+      "brokenLocator": "//body[1]/div[4]/div[2]/div[2]/div[1]/button[1][count(. | //*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)]) \u003d count(//*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ZK\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Work Order/button_Ok Popup Data Pembawa_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/List Work Order/select_Nama Mekanik",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Pilih Nama Mekanik\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/List Work Order/select_Nama Mekanik_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/List Work Order/button_OK Question",
+      "brokenLocator": "id(\"xJEMzl\")[count(. | //*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)]) \u003d count(//*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Apakah Anda yakin ingin membatalkan Work order ini?\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/List Work Order/button_OK Question_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/List Work Order/select_Ukuran Kertas",
+      "brokenLocator": "//body[1]/div[6]/div[1]/div[2]/div[1]/div[1]/select[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027X\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/List Work Order/select_Ukuran Kertas_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/List Work Order/button_Cetak WO",
+      "brokenLocator": "//body[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[1]/button[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027X\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/List Work Order/button_Cetak WO_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Assignment Service/label_Nama Mekanik",
+      "brokenLocator": "//*[(text() \u003d \u0027strmekanik\u0027 or . \u003d \u0027strmekanik\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027PIT\u0027])[1]/following::span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Assignment Service/label_Nama Mekanik_neighbor.png"
     }
   ]
 }

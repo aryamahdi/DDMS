@@ -17,21 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Maximize Window Browser'
 WebUI.maximizeWindow()
 
+'Navigate To DDMS H2'
 WebUI.navigateToUrl(GlobalVariable.URL_H2)
 
+'Verify \'Sign in - DDMS\' Label is Present'
 WebUI.verifyElementPresent(findTestObject('H2/Login/label_Sign in - DDMS'), 10)
 
+'Enter Username'
 WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_username'), InvalidUsername)
 
+'Enter Password'
 WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
 
+'Take Screenshot'
+WebUI.takeFullPageScreenshotAsCheckpoint('Input Username & Password')
+
+'Click \'Sign in\' Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
 
+'Verify \'Username Not Valid\' Label is Present'
 WebUI.verifyElementPresent(findTestObject('H2/Login/label_Error. User Name Not Valid'), 10)
-
-not_run: WebUI.closeBrowser()
 

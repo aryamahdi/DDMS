@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Assignment Service - Check Detail Work Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1b2720b5-16ad-415c-9a58-559b008ed6ad</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1dec6abb-7edb-462c-9742-f3a1f508dc69</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'DEDE YOKS'</defaultValue>
+      <description></description>
+      <id>1dec6abb-7edb-462c-9742-f3a1f508dc69</id>
+      <masked>false</masked>
+      <name>NamaMekanik</name>
+   </variable>
+</TestCaseEntity>

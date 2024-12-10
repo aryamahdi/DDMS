@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Lokasi Service</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>fa679b3b-e6b6-4778-a84c-7b8d952e73d1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Ahass+Induk</data>
+   <data>POS+TIGA+YOKS</data>
+   <data>POS+UNDERYOKS+SATU</data>
+   <data>POS+UNDERYOKS+DUA</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Lokasi</name>
+      <size>4</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

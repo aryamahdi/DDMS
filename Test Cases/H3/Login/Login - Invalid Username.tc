@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e31389ef-e577-45e2-8b9f-6f66bf08fb77</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>09f521d2-7698-4022-92c0-b25c8155d838</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Invalid'</defaultValue>
+      <description></description>
+      <id>09f521d2-7698-4022-92c0-b25c8155d838</id>
+      <masked>false</masked>
+      <name>InvalidUsername</name>
+   </variable>
+</TestCaseEntity>

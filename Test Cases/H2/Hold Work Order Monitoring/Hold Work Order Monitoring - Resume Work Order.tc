@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Hold Work Order Monitoring - Resume Work Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>931d64fa-45a4-4739-9f1f-008761db9fc2</testCaseGuid>
+</TestCaseEntity>

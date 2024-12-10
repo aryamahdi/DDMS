@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_Panduan Service Visit</name>
+   <tag></tag>
+   <elementGuidId>d0eaee86-d9ca-4dd0-ab3e-ed058e2c128b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[4]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='g3BQ540']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#g3BQ540</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;X PANDUAN SERVICE VISIT Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>36566831-152d-42cb-9c0e-95d7e25f3db9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g3BQ540</value>
+      <webElementGuid>f976dbe4-a974-4a4b-bd66-bde9da6c4004</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-window z-window-noborder z-window-noheader z-window-modal z-window-shadow</value>
+      <webElementGuid>9dd43383-9d0e-446a-8a9f-757abccdb740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PANDUAN SERVICE VISIT</value>
+      <webElementGuid>f5e52fe3-c536-4201-a0f3-20f2188f56e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[4]</value>
+      <webElementGuid>f26df684-2f54-4dc0-803f-fe164c6bd987</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='g3BQ540']</value>
+      <webElementGuid>c53aa6fb-f403-4500-b5bf-4218329b81be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[2]</value>
+      <webElementGuid>f7e7b5cf-7160-4aea-8d6b-7e85d43682b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]</value>
+      <webElementGuid>748ba267-8af1-4890-9f03-bf279dd4b591</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'g3BQ540' and (text() = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK' or . = '    X  PANDUAN SERVICE VISIT  Kode AsalDefinisiContoh Instansi (SVIN)Servis visit yang dilakukan di lingkungan instansi/pemerintahan serta sekolah/kampusTNI (AD, AL, AU), Kepolisian, Korps BRIMOB, Kantor Kecamatan, Kantor Kelurahan, Dinas Pendidikan, Dinas Kebersihan, Telkom University, Institut Teknologi Bandung, Universitas Padjajaran Company (SVCP)Servis visit yang dilakukan di lingkungan perusahaan (swasta maupun BUMN)PT Biofarma, PT Kimia Farma, PT Combiphar, PT Kaldu Sari Nabati, PT Kereta Api Indonesia, PT Telkom Indonesia, BCA, BNI, BRI Public Area (SVPA)Servis visit di kawasan umum yang sering dilalui oleh banyak orang (fasilitas umum, fasilitas sosial, dan sebagainyaPasar Tradisional, Pasar Modern, Mall, Aktivitas Joint Dealer H1 Door to Door (SVDD)Servis visit ke titik konsumen beradaRumah konsumen, Emergency, AHASS kelilingno data found / 1[ 1 - 4 / 4 ]   OK')]</value>
+      <webElementGuid>50b3693b-6efa-4e59-b228-8ba69e59cf70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

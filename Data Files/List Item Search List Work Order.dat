@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>List Item Search List Work Order</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>39b57aef-c453-4c40-bf6f-f3c62d363bb1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>No+Polisi</data>
+   <data>Status</data>
+   <data>No.+Work+Order+</data>
+   <data>Tanggal+Work+Order</data>
+   <data>PUD</data>
+   <data>Lokasi+Service</data>
+   <data>Tipe+KPB</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Item</name>
+      <size>7</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

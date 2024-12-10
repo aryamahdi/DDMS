@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Close Work Order</name>
+   <tag></tag>
+   <elementGuidId>d9b41a08-0c9d-4cb7-a30e-3a71313f21d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='g3BQ9s-close']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.z-icon-times</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;ZK Data Workorder dengan nomor VST-X6979-24-12-00003 berhasil disimpan. Nomor An&quot;i >> i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8b299340-12af-4a31-a3be-c3d39fb78163</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-icon-times</value>
+      <webElementGuid>aa3ee0f3-40e8-42f4-bd6f-840e9e6d0521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;g3BQ9s-close&quot;)/i[@class=&quot;z-icon-times&quot;]</value>
+      <webElementGuid>82f5c3b4-a29f-40a6-8dbe-3ddb2627e7c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='g3BQ9s-close']/i</value>
+      <webElementGuid>8f25bcfc-9946-433a-a721-c724e8e438a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/i</value>
+      <webElementGuid>3952e973-86f0-4333-b2df-42db65c66fa5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

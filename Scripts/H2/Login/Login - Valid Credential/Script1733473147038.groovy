@@ -35,6 +35,9 @@ WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_us
 'Enter Password'
 WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
 
+'Take Screenshot'
+WebUI.takeFullPageScreenshotAsCheckpoint('Input Username & Password')
+
 'Click \'Sign in\' Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
 
@@ -43,6 +46,9 @@ WebUI.verifyElementPresent(findTestObject('H2/Login/label_Lokasi Service'), 10)
 
 'Select Location from Dropdown'
 WebUI.selectOptionByValue(findTestObject('Object Repository/H2/Login/select_Pilih Lokasi Service'), Lokasi, true)
+
+'Take Screenshot'
+WebUI.takeFullPageScreenshotAsCheckpoint('Select Lokasi Service')
 
 'Click \'Confirm\' Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Confirm'))
@@ -55,4 +61,7 @@ WebUI.click(findTestObject('Object Repository/H2/Login/button_Ya Redirect Messag
 
 'Verify \'DDMS\' Label is Present on Dashboard'
 WebUI.verifyElementPresent(findTestObject('H2/Dashboard/label_DDMS'), 10)
+
+'Take Screenshot'
+WebUI.takeFullPageScreenshotAsCheckpoint('Login Successfull')
 

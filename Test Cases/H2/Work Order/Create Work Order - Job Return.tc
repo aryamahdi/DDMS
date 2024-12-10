@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Work Order - Job Return</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a343ff5e-6bc0-48d8-932f-5de21c413b6b</testCaseGuid>
+</TestCaseEntity>
