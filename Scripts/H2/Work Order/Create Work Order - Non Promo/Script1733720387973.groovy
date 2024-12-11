@@ -17,67 +17,96 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Call Login Test Case with Valid Credentials'
 WebUI.callTestCase(findTestCase('H2/Login/Login - Valid Credential'), [('Lokasi') : 'Ahass Induk'], FailureHandling.STOP_ON_FAILURE)
 
+'Click on Work Order Dropdown in Dashboard'
 WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
 
+'Click on Work Order Link'
 WebUI.click(findTestObject('H2/Dashboard/link_Work Order'))
 
+'Select KPB Type'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Tipe KPB'), TipeKPB, true)
 
+'Select Mechanic Name'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Nama Mekanik'), NamaMekanik, true)
 
+'Enter Vehicle Plate Number (Front Section)'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Depan)'), NoPolisi1)
 
+'Enter Vehicle Plate Number (Middle Section)'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Tengah)'), NoPolisi2)
 
+'Enter Vehicle Plate Number (Back Section)'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Belakang)'), NoPolisi3)
 
+'Click Load Data Button'
 WebUI.click(findTestObject('H2/Work Order/button_Memuat Data'))
 
+'Enter Motorcycle KM Reading'
 WebUI.setText(findTestObject('H2/Work Order/input__KM Motor'), KMMotor)
 
+'Drag Fuel Tank Meter Slider'
 WebUI.dragAndDropByOffset(findTestObject('H2/Work Order/button_Set Meter Tangki Bensin'), 200, 0)
 
+'Enter Unit Entry Origin'
 WebUI.setText(findTestObject('H2/Work Order/input__Asal Unit Entry'), AsalUnitEntry)
 
+'Submit Unit Entry Origin'
 WebUI.sendKeys(findTestObject('H2/Work Order/input__Asal Unit Entry'), Keys.chord(Keys.ENTER))
 
+'Add Customer Complaint'
 WebUI.click(findTestObject('H2/Work Order/button_Tambah Keluhan Customer'))
 
+'Verify Customer Complaint Popup'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Input Keluhan'), 10)
 
+'Select Customer Complaint'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Keluhan'), Keluhan, true)
 
+'Submit Customer Complaint'
 WebUI.click(findTestObject('H2/Work Order/button_Kirim Input Keluhan'))
 
+'Select Work Execution by Mechanic'
 WebUI.click(findTestObject('H2/Work Order/rdr_Langsung dikerjakan oleh mekanik'))
 
+'Confirm Spare Parts are Taken'
 WebUI.click(findTestObject('H2/Work Order/rdr_Ya Spare Part Dibawa'))
 
+'Open Data Carrier Tab'
 WebUI.click(findTestObject('H2/Work Order/tab_Data Pembawa'))
 
+'Select Same as Owner Checkbox'
 WebUI.click(findTestObject('H2/Work Order/input_Sama Dengan Pemilik'))
 
+'Select Carrier-Owner Relationship'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Hubungan Pembawa dan Pemilik'), HubunganPembawa, true)
 
+'Select Reason for Visiting AHASS'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Alasan Datang ke AHASS'), AlasanDatang, true)
 
+'Save Data Carrier Information'
 WebUI.click(findTestObject('H2/Work Order/button_Simpan Data Pembawa'))
 
+'Verify Data Carrier Popup'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Data Pembawa'), 10)
 
+'Close Data Carrier Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Popup Data Pembawa'))
 
+'Sign on SA Canvas'
 WebUI.doubleClick(findTestObject('H2/Work Order/canvas_SA'))
 
+'Sign on Customer Canvas'
 WebUI.doubleClick(findTestObject('H2/Work Order/canvas_Customer'))
 
+'Click Create Work Order Button'
 WebUI.click(findTestObject('H2/Work Order/button_Buat WO'))
 
+'Verify Work Order Popup'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Work Order'), 10)
 
+'Click OK on Work Order Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Work Order'))
-
-WebUI.acceptAlert()
 

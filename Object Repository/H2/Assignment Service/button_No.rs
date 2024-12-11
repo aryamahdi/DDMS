@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Start</name>
+   <name>button_No</name>
    <tag></tag>
-   <elementGuidId>63034e26-9617-4676-b898-894180b07a28</elementGuidId>
+   <elementGuidId>dc2aed8f-bd48-4b96-8aae-394983088f26</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='qQAPv_0']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
+         <value>//button[@id='cRFMc00']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#qQAPv_0</value>
+         <value>#cRFMc00</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Start&quot;i]</value>
+         <value>internal:role=button[name=&quot;No&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,106 +29,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cec1f764-5228-42a6-b7b1-aca16e9e4039</webElementGuid>
+      <webElementGuid>277a71be-6e01-4474-ba7b-1b59fef6623c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d11869b2-6c76-4378-96e8-3deb320ffd2b</webElementGuid>
+      <webElementGuid>b80ffbc5-5b3f-4644-a9cd-bc738e549015</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>qQAPv_0</value>
-      <webElementGuid>8ed4613d-73eb-413d-be71-31e8d86c5a92</webElementGuid>
+      <value>cRFMc00</value>
+      <webElementGuid>eddf550a-9afd-42d4-be32-4aa1b27bcea6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tombol btn btn-primary</value>
-      <webElementGuid>dc8d2dd5-0b62-4514-9a9e-85c0f21a817e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Start</value>
-      <webElementGuid>db880152-0f89-4483-bb8e-d64d08e29d9f</webElementGuid>
+      <value>z-messagebox-button z-button</value>
+      <webElementGuid>684b1ff8-2aee-46b1-bf7f-60fd045a2f1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>f3e12512-973c-46fb-9b95-b901e3049f47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
-      <webElementGuid>c5b6767d-80c5-498c-9007-f3c65914c81f</webElementGuid>
+      <value>id(&quot;cRFMc00&quot;)</value>
+      <webElementGuid>e1d25c30-ac3e-4c48-8e83-79c1eed98748</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='qQAPv_0']</value>
-      <webElementGuid>9a196fc7-0ba9-4936-b11f-854d5f93ed4f</webElementGuid>
+      <value>//button[@id='cRFMc00']</value>
+      <webElementGuid>b9635550-5228-4649-a577-77d0c19cbc87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='qQAPu_0']/button</value>
-      <webElementGuid>63ad75d5-8abe-4f19-ba9c-c02d05059faf</webElementGuid>
+      <value>//div[@id='cRFMc00-chdex']/button</value>
+      <webElementGuid>c492ac18-c2f4-4e25-b2ca-24f5b8eaf0c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/following::button[1]</value>
-      <webElementGuid>8bbd62b2-f05f-46c6-80cc-6229b2a70406</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[1]</value>
+      <webElementGuid>89a82c5d-52b0-40e0-ad23-1031a06c01e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold WO'])[1]/following::button[2]</value>
-      <webElementGuid>2afaed70-e73f-4c59-9735-23095a9990e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pekerjaan dimulai. Apakah Anda ingin mencetak Perintah Kerja Bengkel ?'])[1]/following::button[2]</value>
+      <webElementGuid>de814732-45c6-4bee-999b-d600f137ee0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
-      <webElementGuid>aff6fb2f-f89c-40f1-8c64-cd2d36b2fd08</webElementGuid>
+      <value>//*/text()[normalize-space(.)='No']/parent::*</value>
+      <webElementGuid>83d4ddb8-582d-46f4-929d-d6f5189a5e4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[12]/div/div[4]/button</value>
-      <webElementGuid>8440c896-88de-4e5b-a823-9e9672a20a3a</webElementGuid>
+      <value>//div[2]/div[2]/button</value>
+      <webElementGuid>8004a772-d56f-4c50-8c9e-47b7459044b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'qQAPv_0' and (text() = '
-                        Start
-                    ' or . = '
-                        Start
-                    ')]</value>
-      <webElementGuid>9107fb20-6314-42ba-9f84-4bf5cb855724</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'cRFMc00' and (text() = 'No' or . = 'No')]</value>
+      <webElementGuid>8acac67f-67a7-4acb-948c-3e44a2f0e137</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_Berhasil Hold WO</name>
+   <tag></tag>
+   <elementGuidId>3e66613d-09b6-4cb2-85ee-1228970dbf67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='k5aXl10']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'z-messagebox z-div']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#k5aXl10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Work Order ID WO-X6979-24-12-00009 Berhasil Hold WO&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>960fd04e-981f-465c-9640-139108be44c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>k5aXl10</value>
+      <webElementGuid>f58a8718-49da-46c1-aa0f-63a582e32312</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-messagebox z-div</value>
+      <webElementGuid>795ce4b1-ba4f-49fa-9387-1f87b881e55e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Berhasil Hold WO</value>
+      <webElementGuid>29ccc8ff-d844-4c01-beb0-f6c7f33e6358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;k5aXl10&quot;)</value>
+      <webElementGuid>ae8d758f-ae28-4c50-98ac-82ec6cb6f29b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='k5aXl10']</value>
+      <webElementGuid>12f15260-551c-4d48-bbc4-d929c57fa026</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='k5aXl10-chdex']/div</value>
+      <webElementGuid>dc95d517-d917-4b94-9f6f-797827b75e94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZK'])[1]/following::div[3]</value>
+      <webElementGuid>34d25660-93d7-45f4-b734-d7d1941c847e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[2]</value>
+      <webElementGuid>fbaa29de-cf64-4e49-a665-9e128ba55e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>685a5af2-9149-4110-8f96-db53de3bef09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'k5aXl10' and (text() = ' Work Order ID WO-X6979-24-12-00009 Berhasil Hold WO' or . = ' Work Order ID WO-X6979-24-12-00009 Berhasil Hold WO')]</value>
+      <webElementGuid>0649aa48-b573-4b97-93fc-c9b876ce4adc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

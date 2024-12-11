@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>404e9ff1-757b-418c-a1fa-843f87bfcfee</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab9bcfb1-c51d-453f-b86c-1f855e74c74f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'DEDE YOKS'</defaultValue>
+      <description></description>
+      <id>ab9bcfb1-c51d-453f-b86c-1f855e74c74f</id>
+      <masked>false</masked>
+      <name>NamaMekanik</name>
+   </variable>
 </TestCaseEntity>

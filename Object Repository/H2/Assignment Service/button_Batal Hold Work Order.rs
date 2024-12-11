@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Ok Popup Data Pembawa</name>
+   <name>button_Batal Hold Work Order</name>
    <tag></tag>
-   <elementGuidId>9386e1ee-9396-492c-a730-63880de815a6</elementGuidId>
+   <elementGuidId>27ad7cc3-52fd-4fd6-be40-2e98d23d4452</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//body[1]/div[4]/div[2]/div[2]/div[1]/button[1]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//body[1]/div[4]/div[2]/div[2]/div[1]/button[1][count(. | //*[@type = 'button' and (text() = 'OK' or . = 'OK')]) = count(//*[@type = 'button' and (text() = 'OK' or . = 'OK')])]</value>
+         <value>//button[@id='r1lTil']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#g3BQcv0</value>
+         <value>#r1lTil</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>div >> internal:has-text=&quot;ZK Customer dengan nama dwi surahman dua cust berhasil disimpan. OK&quot;i >> internal:role=button</value>
+         <value>internal:role=button[name=&quot;Batal&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>022daa74-235c-43ac-b652-69d4c113aa83</webElementGuid>
+      <webElementGuid>877d62ff-ca62-4d5c-9ec3-85dc4068b8a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,110 +37,108 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>00eb1430-0a64-486a-afca-e069b2aa6761</webElementGuid>
+      <webElementGuid>43417a9e-b088-442e-aa32-70d6fc9564de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>g3BQcv0</value>
-      <webElementGuid>80f5d67f-3ab9-4489-b9c8-5335217ec597</webElementGuid>
+      <value>r1lTil</value>
+      <webElementGuid>fcb10ffd-4843-41d4-90df-515a192eddc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>z-messagebox-button z-button</value>
-      <webElementGuid>02f4f58e-f91f-4f70-989a-a683f0e2c298</webElementGuid>
+      <value>tombol btn btn-primary</value>
+      <webElementGuid>61451189-e5c1-4026-a934-3f0b32dc12b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>OK</value>
-      <webElementGuid>5d97834f-bfd6-4d8f-bd46-a5bfe6c52825</webElementGuid>
+      <value>
+                         Batal
+                     </value>
+      <webElementGuid>10250991-5406-413d-a0b5-0cfbf49d5bf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[2]/div[2]/div[1]/button[1]</value>
-      <webElementGuid>bfc0f035-9386-4955-bbf2-0973e05ade54</webElementGuid>
+      <value>id(&quot;r1lTil&quot;)</value>
+      <webElementGuid>d6ecaf91-174a-479c-b96a-dc76cfdc0f1f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='g3BQcv0']</value>
-      <webElementGuid>f572b378-9299-4ab9-9c9c-a7c6b0a8c0f1</webElementGuid>
+      <value>//button[@id='r1lTil']</value>
+      <webElementGuid>b134ebfa-dcd5-4843-86df-7b685fad9c7a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='g3BQcv0-chdex']/button</value>
-      <webElementGuid>e7777ff3-a995-46b8-9534-0dd9bc54f19f</webElementGuid>
+      <value>//div[@id='r1lTqn']/button</value>
+      <webElementGuid>4ae9eb4c-81fb-4a57-b570-eb579f70b6cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer dengan nama dwi surahman dua cust berhasil disimpan.'])[1]/following::button[1]</value>
-      <webElementGuid>35b2fa37-7926-4023-8edf-73d2abe04a0a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Vendor'])[1]/following::button[1]</value>
+      <webElementGuid>3e2b8e7e-4075-4e46-b8e6-9840e1d67549</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZK'])[1]/following::button[1]</value>
-      <webElementGuid>b4b57793-1b4f-4fb2-870c-3a62d780eda7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::button[2]</value>
+      <webElementGuid>a942fda5-6436-4e7f-b09a-bde3b09070b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[2]/preceding::button[1]</value>
-      <webElementGuid>2b89af55-662c-4c6b-b725-70e1738342ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::button[1]</value>
+      <webElementGuid>fd2afd4f-ad80-4f31-a794-a793bb720933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='PANDUAN SERVICE VISIT'])[1]/preceding::button[2]</value>
-      <webElementGuid>4c9a5eab-4241-47d6-a536-d8ccc1a685a4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>6782d007-b4fe-4b8d-b6d2-9caf053cac39</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Batal']/parent::*</value>
+      <webElementGuid>67d8765f-48ce-406d-95be-08e591646033</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/button</value>
-      <webElementGuid>c366464d-89e2-4f60-b962-8b4cdd027830</webElementGuid>
+      <value>//div[6]/div/div[5]/div/div/button</value>
+      <webElementGuid>0487f3ab-ea2f-4e05-97e1-dba39df89bea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'g3BQcv0' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>4c4018fa-4631-407c-b9ab-762753d416a2</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'r1lTil' and (text() = '
+                         Batal
+                     ' or . = '
+                         Batal
+                     ')]</value>
+      <webElementGuid>dca2f889-f6f3-47d4-b58e-4d756cfb47a9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

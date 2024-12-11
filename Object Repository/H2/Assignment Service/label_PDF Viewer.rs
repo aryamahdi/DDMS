@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Start</name>
+   <name>label_PDF Viewer</name>
    <tag></tag>
-   <elementGuidId>63034e26-9617-4676-b898-894180b07a28</elementGuidId>
+   <elementGuidId>77124c0d-42cb-471d-8937-64b47a597491</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='qQAPv_0']</value>
+         <value>//div[@id='r1lTjm-cap']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
+         <value>//*[(text() = 'PDF Viewer' or . = 'PDF Viewer')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#qQAPv_0</value>
+         <value>#r1lTjm-cap</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Start&quot;i]</value>
+         <value>internal:text=&quot;PDF Viewer&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,107 +32,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cec1f764-5228-42a6-b7b1-aca16e9e4039</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d11869b2-6c76-4378-96e8-3deb320ffd2b</webElementGuid>
+      <value>div</value>
+      <webElementGuid>344eb1bf-7518-472e-a4f5-92304a74499c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>qQAPv_0</value>
-      <webElementGuid>8ed4613d-73eb-413d-be71-31e8d86c5a92</webElementGuid>
+      <value>r1lTjm-cap</value>
+      <webElementGuid>4c9747cb-e311-405b-826f-20d9ae1c4c51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tombol btn btn-primary</value>
-      <webElementGuid>dc8d2dd5-0b62-4514-9a9e-85c0f21a817e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Start</value>
-      <webElementGuid>db880152-0f89-4483-bb8e-d64d08e29d9f</webElementGuid>
+      <value>z-window-header z-window-header-move</value>
+      <webElementGuid>416b766a-c919-42dc-b0ed-146efa5a68b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PDF Viewer</value>
+      <webElementGuid>c40ace4b-9bb6-4214-87fd-326e25e61418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
-      <webElementGuid>c5b6767d-80c5-498c-9007-f3c65914c81f</webElementGuid>
+      <value>id(&quot;r1lTjm-cap&quot;)</value>
+      <webElementGuid>4c86612f-25d4-473e-9990-29a1be88a06c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='qQAPv_0']</value>
-      <webElementGuid>9a196fc7-0ba9-4936-b11f-854d5f93ed4f</webElementGuid>
+      <value>//div[@id='r1lTjm-cap']</value>
+      <webElementGuid>e795bf94-b9f6-4850-b42e-e56409037957</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='qQAPu_0']/button</value>
-      <webElementGuid>63ad75d5-8abe-4f19-ba9c-c02d05059faf</webElementGuid>
+      <value>//div[@id='r1lTjm']/div</value>
+      <webElementGuid>62dbd9ca-7be5-4dd1-b84d-31d1359ceabb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/following::button[1]</value>
-      <webElementGuid>8bbd62b2-f05f-46c6-80cc-6229b2a70406</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start'])[1]/following::div[3]</value>
+      <webElementGuid>e60855f6-d262-44b1-9a56-0b2f8ed30ccb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold WO'])[1]/following::button[2]</value>
-      <webElementGuid>2afaed70-e73f-4c59-9735-23095a9990e5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/following::div[15]</value>
+      <webElementGuid>f6526c53-8a1d-42ca-a88b-16d5ec512de8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
-      <webElementGuid>aff6fb2f-f89c-40f1-8c64-cd2d36b2fd08</webElementGuid>
+      <value>//*/text()[normalize-space(.)='PDF Viewer']/parent::*</value>
+      <webElementGuid>0bc1c13b-5c1f-4a5a-ae97-78d370a0326c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[12]/div/div[4]/button</value>
-      <webElementGuid>8440c896-88de-4e5b-a823-9e9672a20a3a</webElementGuid>
+      <value>//div[6]/div</value>
+      <webElementGuid>71339817-095b-4aaa-80be-990c10b1a2cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'qQAPv_0' and (text() = '
-                        Start
-                    ' or . = '
-                        Start
-                    ')]</value>
-      <webElementGuid>9107fb20-6314-42ba-9f84-4bf5cb855724</webElementGuid>
+      <value>//div[@id = 'r1lTjm-cap' and (text() = 'PDF Viewer' or . = 'PDF Viewer')]</value>
+      <webElementGuid>3b358835-7c0f-4646-b206-4e10388b3c36</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

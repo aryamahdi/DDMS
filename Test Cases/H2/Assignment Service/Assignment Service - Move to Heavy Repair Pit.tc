@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>f2e16f96-1411-4e0f-955c-a6d49a82b77a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ff8c9193-e469-484e-9538-fc90ca9983c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>16e6808c-ddd5-4e8d-a562-1861c592355c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'DEDE YOKS'</defaultValue>
+      <description></description>
+      <id>ff8c9193-e469-484e-9538-fc90ca9983c8</id>
+      <masked>false</masked>
+      <name>NamaMekanik</name>
+   </variable>
+   <variable>
+      <defaultValue>'BACHTIAR YORK'</defaultValue>
+      <description></description>
+      <id>16e6808c-ddd5-4e8d-a562-1861c592355c</id>
+      <masked>false</masked>
+      <name>NamaMekanik2</name>
+   </variable>
 </TestCaseEntity>

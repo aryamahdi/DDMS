@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Finish</name>
+   <name>select_Alasan Hold Work Order</name>
    <tag></tag>
-   <elementGuidId>2b6bc932-eb13-4fe2-9ea4-ce301abf487e</elementGuidId>
+   <elementGuidId>acb801be-88bc-435d-96c4-4422b23eb774</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='qQAPpf0']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//body[1]/div[4]/div[1]/div[5]/div[1]/div[4]/button[1]</value>
+         <value>//body[1]/div[6]/div[1]/div[4]/div[1]/div[1]/div[1]/div[1]/select[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#qQAPpf0</value>
+         <value>#r1lT2n</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Finish&quot;i]</value>
+         <value>internal:role=combobox</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,117 +28,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>94c09ae7-b819-420a-b2a8-1e278c51c6d0</webElementGuid>
+      <value>select</value>
+      <webElementGuid>8b1a201a-d9f2-4fe9-a212-fbb7de78b1ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9a3eb917-170d-42ee-8d6e-fe39ad2033d4</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>qQAPpf0</value>
-      <webElementGuid>cf8b0d80-788e-4900-b4b9-697987506758</webElementGuid>
+      <value>r1lT2n</value>
+      <webElementGuid>f71e2ae4-c3a6-4884-9cc7-bb2afca9be86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tombol btn btn-primary</value>
-      <webElementGuid>e601abf8-600c-44bd-bfef-f342ddcbded1</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>ac453b53-f0cd-451e-a13b-64a092023977</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>selectedindex</name>
       <type>Main</type>
-      <value>
-                        Finish
-                    </value>
-      <webElementGuid>c354ce1d-7a84-46d9-9d6d-e0c5885b373f</webElementGuid>
+      <value>1</value>
+      <webElementGuid>4080635b-e7ce-438c-91b1-7f20ba5af626</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sparepart Tidak TersediaPekerjaan LuarPekerjaan Belum Selesai</value>
+      <webElementGuid>c7dc102d-b304-4e62-8d6a-8b1d0fcbaef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[1]/div[5]/div[1]/div[4]/button[1]</value>
-      <webElementGuid>27cc9579-2dd0-417d-8b87-d881db217bd7</webElementGuid>
+      <value>id(&quot;r1lT2n&quot;)</value>
+      <webElementGuid>55c1391f-e018-4c33-9b43-76c2fa632c26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='qQAPpf0']</value>
-      <webElementGuid>1400cfb3-2bbc-4ae2-8085-789ff90740a5</webElementGuid>
+      <value>//select[@id='r1lT2n']</value>
+      <webElementGuid>65158656-b82f-48c7-90c5-35e1b7105a78</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='qQAPof0']/button</value>
-      <webElementGuid>ff5442dc-7a5b-4832-8f0e-269c3a25b9ee</webElementGuid>
+      <value>//div[@id='r1lT1n']/select</value>
+      <webElementGuid>41795fb7-9c7b-47be-b7c9-93372a588340</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold WO'])[1]/following::button[1]</value>
-      <webElementGuid>27cddef4-83e5-4248-851a-a448cd4f759a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alasan Hold WO'])[2]/following::select[1]</value>
+      <webElementGuid>7792a91d-022c-4bf1-a21d-5ef30e684933</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move to Regular PIT'])[1]/following::button[2]</value>
-      <webElementGuid>363c2233-3940-4d80-94ae-2f835359623a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[2]/following::select[1]</value>
+      <webElementGuid>5f1653d9-1202-4688-a4c8-e366aea1659d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start'])[1]/preceding::button[1]</value>
-      <webElementGuid>8f9f7371-6ef5-4bae-b94b-f44b20d2de12</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nomor Pekerjaan'])[1]/preceding::select[1]</value>
+      <webElementGuid>87faa2ef-ab23-4ec3-a00c-89de4f7b0ede</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Finish']/parent::*</value>
-      <webElementGuid>49c711db-eece-4a2d-88b9-1bba28b184e8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Pekerjaan Luar'])[1]/preceding::select[1]</value>
+      <webElementGuid>37b76c5b-f5cf-4187-a816-c5ae7be2861f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/button</value>
-      <webElementGuid>d5a69425-c187-4ade-b33e-c2e4804e5491</webElementGuid>
+      <value>//select</value>
+      <webElementGuid>ffe41ce1-fe9b-4d6b-8456-8e8567b47688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'qQAPpf0' and (text() = '
-                        Finish
-                    ' or . = '
-                        Finish
-                    ')]</value>
-      <webElementGuid>6088cd6c-c8d4-4490-95f9-135ff2034a81</webElementGuid>
+      <value>//select[@id = 'r1lT2n' and (text() = 'Sparepart Tidak TersediaPekerjaan LuarPekerjaan Belum Selesai' or . = 'Sparepart Tidak TersediaPekerjaan LuarPekerjaan Belum Selesai')]</value>
+      <webElementGuid>e08ff273-34d5-432b-bb6e-621032bcf20e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

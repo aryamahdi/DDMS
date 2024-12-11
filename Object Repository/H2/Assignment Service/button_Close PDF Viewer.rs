@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Start</name>
+   <name>button_Close PDF Viewer</name>
    <tag></tag>
-   <elementGuidId>63034e26-9617-4676-b898-894180b07a28</elementGuidId>
+   <elementGuidId>d699ebe4-2f39-4aaf-a3f7-5387ad2c0887</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='qQAPv_0']</value>
+         <value>//div[@id='r1lTjm-close']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
+         <value>//*[@title = 'Close']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#qQAPv_0</value>
+         <value>#r1lTjm-close</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Start&quot;i]</value>
+         <value>internal:attr=[title=&quot;Close&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,107 +32,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>cec1f764-5228-42a6-b7b1-aca16e9e4039</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
-      <webElementGuid>d11869b2-6c76-4378-96e8-3deb320ffd2b</webElementGuid>
+      <value>div</value>
+      <webElementGuid>ebd0d327-9e9f-4341-a703-92460a50dcfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>qQAPv_0</value>
-      <webElementGuid>8ed4613d-73eb-413d-be71-31e8d86c5a92</webElementGuid>
+      <value>r1lTjm-close</value>
+      <webElementGuid>f001791d-b4f7-460e-a166-52d2da161822</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>tombol btn btn-primary</value>
-      <webElementGuid>dc8d2dd5-0b62-4514-9a9e-85c0f21a817e</webElementGuid>
+      <value>z-window-icon z-window-close</value>
+      <webElementGuid>beb71c15-3512-42a3-9b27-0ea353428d2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>Start</value>
-      <webElementGuid>db880152-0f89-4483-bb8e-d64d08e29d9f</webElementGuid>
+      <value>0</value>
+      <webElementGuid>4aea5dc1-bd2f-4b9f-8288-f556c9843b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>b1b53178-eed7-49ef-8b73-cef725dbde06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[1]/div[12]/div[1]/div[4]/button[1]</value>
-      <webElementGuid>c5b6767d-80c5-498c-9007-f3c65914c81f</webElementGuid>
+      <value>id(&quot;r1lTjm-close&quot;)</value>
+      <webElementGuid>8cee9d54-6659-4050-add7-a85869e98313</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='qQAPv_0']</value>
-      <webElementGuid>9a196fc7-0ba9-4936-b11f-854d5f93ed4f</webElementGuid>
+      <value>//div[@id='r1lTjm-close']</value>
+      <webElementGuid>bcebec49-5812-4761-be45-a6e2be8351e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='qQAPu_0']/button</value>
-      <webElementGuid>63ad75d5-8abe-4f19-ba9c-c02d05059faf</webElementGuid>
+      <value>//div[@id='r1lTjm-cap']/div</value>
+      <webElementGuid>9ddf88c3-d441-490c-8fd2-f80926e10947</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Finish'])[1]/following::button[1]</value>
-      <webElementGuid>8bbd62b2-f05f-46c6-80cc-6229b2a70406</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDF Viewer'])[1]//div[1]</value>
+      <webElementGuid>04d5b81c-c960-4161-8520-d0d9d5853b06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold WO'])[1]/following::button[2]</value>
-      <webElementGuid>2afaed70-e73f-4c59-9735-23095a9990e5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Start']/parent::*</value>
-      <webElementGuid>aff6fb2f-f89c-40f1-8c64-cd2d36b2fd08</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start'])[1]/following::div[4]</value>
+      <webElementGuid>e7134d68-864c-4fbc-94ff-0139a93844a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[12]/div/div[4]/button</value>
-      <webElementGuid>8440c896-88de-4e5b-a823-9e9672a20a3a</webElementGuid>
+      <value>//div[6]/div/div</value>
+      <webElementGuid>c0d75216-cd08-44dd-a6f4-c40f021245b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'qQAPv_0' and (text() = '
-                        Start
-                    ' or . = '
-                        Start
-                    ')]</value>
-      <webElementGuid>9107fb20-6314-42ba-9f84-4bf5cb855724</webElementGuid>
+      <value>//div[@id = 'r1lTjm-close' and @title = 'Close']</value>
+      <webElementGuid>66d3f6a7-d3bd-4839-93be-0d7ff54efc9e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

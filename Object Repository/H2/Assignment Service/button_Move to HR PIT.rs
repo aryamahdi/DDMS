@@ -10,11 +10,15 @@
          <value>//button[@id='qQAPjf0']</value>
       </entry>
       <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[4]/div[1]/div[5]/div[1]/div[1]/button[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#qQAPjf0</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5efa29ed-74c5-435d-82de-4110f3e4ce35</webElementGuid>
+      <webElementGuid>0a30556b-4e45-433b-a9d4-2c8b1f3138de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c7354a65-6421-4fa0-9e27-a5b8526e5528</webElementGuid>
+      <webElementGuid>74966b8b-28fc-4e58-b75d-789dd27949a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>qQAPjf0</value>
-      <webElementGuid>96de70e7-a6e1-4cc6-9b74-6b22fd9baf29</webElementGuid>
+      <webElementGuid>2c230273-50a0-4701-b295-a7f1b387a7d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,25 +57,25 @@
       <name>class</name>
       <type>Main</type>
       <value>tombol btn btn-primary</value>
-      <webElementGuid>d53a59e7-e343-4a90-ac5d-84a4aef33956</webElementGuid>
+      <webElementGuid>ad3c5a90-033a-4efc-a44e-2993552673c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>
                         Move to HR PIT
                     </value>
-      <webElementGuid>0f11347a-7f8a-412a-a419-e3fffab1cedb</webElementGuid>
+      <webElementGuid>1b068b0c-30de-4bac-8eb9-d3ad8cd2b652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;qQAPjf0&quot;)</value>
-      <webElementGuid>0cdfc2e6-522a-4742-9aa3-7cce71cfa0f0</webElementGuid>
+      <value>//body[1]/div[4]/div[1]/div[5]/div[1]/div[1]/button[1]</value>
+      <webElementGuid>c3156c66-e6e4-44ef-b9fc-7f77fc396631</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='qQAPjf0']</value>
-      <webElementGuid>c9c349d8-3c31-404b-9a16-748a765c3992</webElementGuid>
+      <webElementGuid>5680fde3-c130-4a48-a2f5-b251c144dced</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='qQAPif0']/button</value>
-      <webElementGuid>06cce5c3-315c-45f3-91c4-7b16cf08bd5c</webElementGuid>
+      <webElementGuid>9b8cdeef-a207-4ed8-8066-9485c9da1168</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order Detail'])[1]/following::button[1]</value>
-      <webElementGuid>6ff18281-f616-47a8-a9ff-d052eb05d2b0</webElementGuid>
+      <webElementGuid>2640c7c4-3d07-410b-9287-9c2ced8c5d83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Order'])[4]/following::button[2]</value>
-      <webElementGuid>fc3cd54f-c02a-489f-b3f8-a2f60ed3132e</webElementGuid>
+      <webElementGuid>ae38ce87-9527-4e89-b83a-aa54baf19f68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Move to Regular PIT'])[1]/preceding::button[1]</value>
-      <webElementGuid>8d7a6e8c-0b99-4aeb-99a3-32f23dff7218</webElementGuid>
+      <webElementGuid>c7c46238-8d55-4f5c-ab6c-371a6dcd31ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hold WO'])[1]/preceding::button[2]</value>
-      <webElementGuid>07930e15-b841-489a-9e2d-2c1ab0c2246b</webElementGuid>
+      <webElementGuid>0b3a01c0-cc3a-425a-9977-e57751b662de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +131,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Move to HR PIT']/parent::*</value>
-      <webElementGuid>e6ab3cb2-bc37-4d89-be5f-4e775ebda28b</webElementGuid>
+      <webElementGuid>f99ced5c-8d6d-4df5-b889-341e657cb30f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +139,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/button</value>
-      <webElementGuid>1ca4c620-8e9d-4e73-98b0-58cb938f6064</webElementGuid>
+      <webElementGuid>506bfb79-38f5-4456-b335-6609c33b103d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -147,6 +151,6 @@
                     ' or . = '
                         Move to HR PIT
                     ')]</value>
-      <webElementGuid>2319bf2d-11b9-49ff-bd5b-331b1bce737b</webElementGuid>
+      <webElementGuid>b3201a9d-3881-4efe-b463-020978f6c8e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

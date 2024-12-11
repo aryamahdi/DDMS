@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>popup_Move PIT</name>
+   <tag></tag>
+   <elementGuidId>99fb8084-b34f-4b17-9704-bf3db929e606</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='p6aV900']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#p6aV900</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=&quot;Work Order ID WO-X6979-24-12-00009 berhasil dipindahkan ke HR PIT&quot;i >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b6d82912-7a0d-4997-986c-79c24dc42daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>p6aV900</value>
+      <webElementGuid>ffc61cce-6814-4b57-b519-c466eb811d64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-messagebox z-div</value>
+      <webElementGuid>76ed3b6c-5f3d-4cd1-9a30-3edda2ba5e4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  berhasil dipindahkan ke HR PIT</value>
+      <webElementGuid>d4367414-ac75-4749-880b-621da68a14ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p6aV900&quot;)</value>
+      <webElementGuid>08317596-4b4e-4534-9dfd-e50346aab0ab</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='p6aV900']</value>
+      <webElementGuid>81927245-55ae-4ae2-ac18-c200416d26f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='p6aV900-chdex']/div</value>
+      <webElementGuid>be34ef44-00c3-44ed-bb16-78b52f4bac94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ZK'])[1]/following::div[3]</value>
+      <webElementGuid>e8e67f3c-ec87-4477-99b0-8e8ae7c77f55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[2]</value>
+      <webElementGuid>2151b1af-f0f8-4c2b-8335-34d31c25fe3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/table/tbody/tr/td[3]/div</value>
+      <webElementGuid>691cdcb6-bb8d-409b-8a8a-47750d78a736</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'p6aV900' and (text() = ' Work Order ID WO-X6979-24-12-00009 berhasil dipindahkan ke HR PIT' or . = ' Work Order ID WO-X6979-24-12-00009 berhasil dipindahkan ke HR PIT')]</value>
+      <webElementGuid>c597a83f-8654-4406-a16b-18d0ff6efca4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
