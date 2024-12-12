@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Final Check - Search No Polisi</name>
+   <name>Edit Booking Service</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>49b5c3c5-5e67-485b-a22b-8f759a1707ee</testCaseGuid>
+   <testCaseGuid>06b8d3c1-dd94-4fae-9ee0-83723ffab4a3</testCaseGuid>
 </TestCaseEntity>

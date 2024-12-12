@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Keluhan Customer</name>
+   <tag></tag>
+   <elementGuidId>11996e4e-eb91-45da-bc79-28a8f635acfe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#g57P4t</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>55369211-5d8e-4b01-b156-bd9d50b9bf50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g57P4t</value>
+      <webElementGuid>62cfca75-6e16-49df-ab7e-6c42363134e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>7df19316-f91c-4b1e-8339-c25ddcf46022</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>START AWAL BERGETARBEREBETISS TIDAK BERFUNGSIKURANG BERTENAGASUARA MESIN BERISIKCVT GETARBENSIN BOROSSUSAH HIDUP DI PAGI HARIPLAT MOTOR BERGETARLAIN-LAIN</value>
+      <webElementGuid>1b8d67ae-8a10-48fc-b094-2949ca49359b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/select[1]</value>
+      <webElementGuid>07f1cd20-b70c-4ea7-8ca7-c77655827c26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='g57P4t']</value>
+      <webElementGuid>ac16681a-986e-4a83-8446-92dea77f0a91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='g57P3t']/select</value>
+      <webElementGuid>59686a00-d120-42cb-bfa8-66900c5c6f4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Keluhan Customer'])[1]/following::select[1]</value>
+      <webElementGuid>28afc639-06bf-4e8e-8dff-7dddbf69cc10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::select[1]</value>
+      <webElementGuid>6708ab69-a1d7-4668-b51e-659a54ead221</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Lokasi Service'])[2]/preceding::select[1]</value>
+      <webElementGuid>d7bc780e-42f5-4cd5-996c-82f528e01dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/preceding::select[1]</value>
+      <webElementGuid>e6fd8e22-2921-4c2d-b363-1d214bd5a8f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/select</value>
+      <webElementGuid>8fa764f1-b883-4247-9ee0-921759483605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'g57P4t' and (text() = 'START AWAL BERGETARBEREBETISS TIDAK BERFUNGSIKURANG BERTENAGASUARA MESIN BERISIKCVT GETARBENSIN BOROSSUSAH HIDUP DI PAGI HARIPLAT MOTOR BERGETARLAIN-LAIN' or . = 'START AWAL BERGETARBEREBETISS TIDAK BERFUNGSIKURANG BERTENAGASUARA MESIN BERISIKCVT GETARBENSIN BOROSSUSAH HIDUP DI PAGI HARIPLAT MOTOR BERGETARLAIN-LAIN')]</value>
+      <webElementGuid>b6305254-28ed-4cc6-b942-7683698c8347</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

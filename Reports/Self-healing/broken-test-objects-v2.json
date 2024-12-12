@@ -137,6 +137,36 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Hold Work Order Monitoring/input_Cari_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Work Order/button_Ok Panduan Service Visit",
+      "brokenLocator": "//body[1]/div[4]/div[1]/div[4]/div[1]/div[1]/button[1][count(. | //*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)]) \u003d count(//*[(text() \u003d \u0027OK\u0027 or . \u003d \u0027OK\u0027)])]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "internal:role\u003dbutton[name\u003d\"OK\"s]",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Work Order/button_Ok Panduan Service Visit_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Booking Service/select_Keluhan Customer",
+      "brokenLocator": "//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[6]/div[1]/div[1]/div[1]/select[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Keluhan Customer\u0027])[1]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Booking Service/select_Keluhan Customer_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/H2/Booking Service/select_Jenis Lokasi Service",
+      "brokenLocator": "//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/select[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[7]/following::select[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/H2/Booking Service/select_Jenis Lokasi Service_neighbor.png"
     }
   ]
 }

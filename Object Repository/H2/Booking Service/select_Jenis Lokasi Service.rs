@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Jenis Lokasi Service</name>
+   <tag></tag>
+   <elementGuidId>39e170ae-95c5-414e-9379-03fc09a30fd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#g57Pbt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/select[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=combobox >> nth=2</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c336412b-9445-4a9d-b0f7-c8471288775f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g57Pbt</value>
+      <webElementGuid>76d219cc-5aa6-44c8-a487-0a6621bc5eae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>e8f146bf-1fb3-43f3-8671-7bc101d83c24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Reguler BengkelPOSHomeInstansiCompanyPublic Area</value>
+      <webElementGuid>c1935c5f-4536-4377-8fff-d34e628a0883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body[1]/div[5]/div[1]/div[3]/div[4]/div[1]/div[1]/div[1]/div[1]/div[8]/div[1]/div[1]/div[1]/select[1]</value>
+      <webElementGuid>95187495-f798-48cb-b07f-6afe847780f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='g57Pbt']</value>
+      <webElementGuid>6f042739-d071-4a34-9f4e-c80520c842a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='g57Pat']/select</value>
+      <webElementGuid>6cc03ea3-4495-4bca-a4b8-2952547234c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::select[1]</value>
+      <webElementGuid>fbd29d81-e51c-41d5-8d5e-f5414019992c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jenis Lokasi Service'])[2]/following::select[1]</value>
+      <webElementGuid>b45144b3-46ea-43a4-9790-0f64ff1f3ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Pemilik (STNK)'])[1]/preceding::select[1]</value>
+      <webElementGuid>e7454421-990f-43cd-89eb-a089f18796b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama'])[2]/preceding::select[1]</value>
+      <webElementGuid>fb01f67a-ad6e-41aa-b558-60a9ac3737e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div/div/div/select</value>
+      <webElementGuid>379fb300-2ba4-42f8-a349-26844698d281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'g57Pbt' and (text() = 'Reguler BengkelPOSHomeInstansiCompanyPublic Area' or . = 'Reguler BengkelPOSHomeInstansiCompanyPublic Area')]</value>
+      <webElementGuid>14e833f9-7fb2-47d4-a205-a629bfddb0c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

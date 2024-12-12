@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Pilih Waktu Service</name>
+   <tag></tag>
+   <elementGuidId>8ee59ee3-969c-42df-84e2-13bfa827e7cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#g57Pez</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='g57Pez']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Pilih Waktu Service&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>91b09ceb-c710-4089-ae37-a5ef6d5f812c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78760e7c-1960-4633-8af2-96852760747e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g57Pez</value>
+      <webElementGuid>a19fb019-96e7-4a80-848e-47a69292009f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>z-button</value>
+      <webElementGuid>dc7da25b-24eb-4562-83b3-fd2d16921dd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Pilih Waktu Service
+                        </value>
+      <webElementGuid>5dff0eca-0f75-44a9-95ad-7f6a9581da13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;g57Pez&quot;)</value>
+      <webElementGuid>06bc055c-c82c-40bc-9a25-02cc50cd3442</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='g57Pez']</value>
+      <webElementGuid>86dbaaf6-efd7-4941-b19b-1644acd39b44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='g57Pdz']/button</value>
+      <webElementGuid>0a1930aa-2029-41a0-bb21-9cc193f10f65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[2]/following::button[1]</value>
+      <webElementGuid>c8921c0e-0686-4af1-9aea-09bb4223fd47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Waktu Service'])[1]/following::button[2]</value>
+      <webElementGuid>486c36e2-74c9-4c45-9226-f7a5f2ece951</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div[2]/div/button</value>
+      <webElementGuid>aadae710-ffc1-433d-86a8-f285bcfb1c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = 'g57Pez' and (text() = '
+                            Pilih Waktu Service
+                        ' or . = '
+                            Pilih Waktu Service
+                        ')]</value>
+      <webElementGuid>4a0d4c2a-68d0-4ad5-be64-8075b2ddc6c7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
