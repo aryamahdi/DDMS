@@ -17,3 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
+
+WebUI.click(findTestObject('H2/Dashboard/link_Hold WO Monitoring'))
+
+WebUI.verifyElementPresent(findTestObject('H2/Hold Work Order Monitoring/label_Hold Work Order Monitoring'), 10)
+
+WebUI.selectOptionByValue(findTestObject('H2/Hold Work Order Monitoring/select_Pilih Item'), 'Nomor Polisi', true)
+
+WebUI.setText(findTestObject('H2/Hold Work Order Monitoring/input_Cari'), 'D 2414 SAZ')
+
+WebUI.click(findTestObject('H2/Hold Work Order Monitoring/button_Cari'))
+
+NoWorkOrder = WebUI.getText(findTestObject('H2/Hold Work Order Monitoring/label_No. Work Order'))
+
+WebUI.click(findTestObject('H2/Hold Work Order Monitoring/button_Detail Work Order'))
+
+NoWorkOrder2 = WebUI.getText(findTestObject('H2/Hold Work Order Monitoring/button_Close Data Work Order'))
+
+if (NoWorkOrder == NoWorkOrder2) {
+    WebUI.takeFullPageScreenshotAsCheckpoint('Testing Berhasil')
+} else {
+    WebUI.takeFullPageScreenshotAsCheckpoint('Testing Gagal')
+}
+

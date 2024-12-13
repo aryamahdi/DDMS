@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
+def timestamp = new Date().format('dd-MM-YYYY ss:mm:HH')
 
 'Open Browser'
 WebUI.openBrowser('')
@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_us
 WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
 
 'Take Screenshot'
-WebUI.takeFullPageScreenshotAsCheckpoint('01. Input Username & Password')
+WebUI.takeScreenshot(['text' : timestamp])
 
 'Click \'Sign in\' Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
@@ -50,7 +50,7 @@ WebUI.verifyElementPresent(findTestObject('H2/Login/label_Lokasi Service'), 10)
 WebUI.selectOptionByValue(findTestObject('Object Repository/H2/Login/select_Pilih Lokasi Service'), Lokasi, true)
 
 'Take Screenshot'
-WebUI.takeFullPageScreenshotAsCheckpoint('02. Select Lokasi Service')
+WebUI.takeScreenshot(['text' : timestamp])
 
 'Click \'Confirm\' Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Confirm'))
@@ -65,5 +65,5 @@ WebUI.click(findTestObject('Object Repository/H2/Login/button_Ya Redirect Messag
 WebUI.verifyElementPresent(findTestObject('H2/Dashboard/label_DDMS'), 10)
 
 'Take Screenshot'
-WebUI.takeFullPageScreenshotAsCheckpoint('03. Login Successfull')
+WebUI.takeScreenshot(['text' : timestamp])
 

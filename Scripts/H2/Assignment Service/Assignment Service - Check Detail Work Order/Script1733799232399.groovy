@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Call Login Test Case with Valid Credentials'
-WebUI.callTestCase(findTestCase('H2/Login/Login - Valid Credential'), [('Lokasi') : 'Ahass Induk'], FailureHandling.STOP_ON_FAILURE)
-
 'Click Work Order Dropdown on Dashboard'
 WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
 

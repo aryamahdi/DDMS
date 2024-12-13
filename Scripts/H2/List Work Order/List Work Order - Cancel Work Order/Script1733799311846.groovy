@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('H2/Login/Login - Valid Credential'), [('Lokasi') : 'Ahass Induk'], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.navigateToUrl(GlobalVariable.URL_H2)
 
 WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
@@ -35,7 +33,8 @@ WebUI.click(findTestObject('H2/List Work Order/button_Cari'))
 
 WebUI.click(findTestObject('H2/List Work Order/button_Cancel WO'))
 
-WebUI.verifyElementPresent(findTestObject('H2/List Work Order/label_Apakah Anda yakin ingin membatalkan Work order ini'), 10)
+WebUI.verifyElementPresent(findTestObject('H2/List Work Order/label_Apakah Anda yakin ingin membatalkan Work order ini'), 
+    10)
 
 WebUI.click(findTestObject('H2/List Work Order/button_OK Question'))
 
