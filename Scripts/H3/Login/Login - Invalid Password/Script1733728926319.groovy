@@ -17,21 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Open Browser'
 WebUI.openBrowser('')
 
+'Maximize Browser Window'
 WebUI.maximizeWindow()
 
+'Navigate to Application URL'
 WebUI.navigateToUrl(GlobalVariable.URL_H3)
 
+'Verify Login Page is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Login/label_Sign in - DDMS'), 10)
 
-WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_username'), InvalidUsername)
+'Enter Valid Username'
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_username'), GlobalVariable.Username)
 
-WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), GlobalVariable.Password)
+'Enter Invalid Password'
+WebUI.setText(findTestObject('Object Repository/H2/Login/input_Sign in - DDMS_password'), InvalidPassword)
 
+'Click Sign In Button'
 WebUI.click(findTestObject('Object Repository/H2/Login/button_Sign in'))
 
-WebUI.verifyElementPresent(findTestObject('H2/Login/label_Error. User Name Not Valid'), 10)
+'Verify Error Message for Invalid Password'
+WebUI.verifyElementPresent(findTestObject('H2/Login/label_Error. Password Not Valid'), 10)
 
-not_run: WebUI.closeBrowser()
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Close Browser'
+WebUI.closeBrowser()
 

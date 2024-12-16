@@ -17,10 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-'Click on Work Order Dropdown in Dashboard'
+'Click Work Order Dropdown on Dashboard'
 WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
 
-'Click on Work Order Link'
+'Click Work Order Link on Dashboard'
 WebUI.click(findTestObject('H2/Dashboard/link_Work Order'))
 
 'Select KPB Type'
@@ -29,22 +29,25 @@ WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Tipe KPB'), TipeK
 'Select Mechanic Name'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Nama Mekanik'), NamaMekanik, true)
 
-'Enter Vehicle Plate Number (Front Section)'
+'Enter Front Plate Number'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Depan)'), NoPolisi1)
 
-'Enter Vehicle Plate Number (Middle Section)'
+'Enter Middle Plate Number'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Tengah)'), NoPolisi2)
 
-'Enter Vehicle Plate Number (Back Section)'
+'Enter Back Plate Number'
 WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Belakang)'), NoPolisi3)
 
 'Click Load Data Button'
 WebUI.click(findTestObject('H2/Work Order/button_Memuat Data'))
 
-'Enter Motorcycle KM Reading'
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Enter KM Reading'
 WebUI.setText(findTestObject('H2/Work Order/input__KM Motor'), KMMotor)
 
-'Drag Fuel Tank Meter Slider'
+'Adjust Fuel Tank Meter'
 WebUI.dragAndDropByOffset(findTestObject('H2/Work Order/button_Set Meter Tangki Bensin'), 200, 0)
 
 'Enter Unit Entry Origin'
@@ -56,20 +59,26 @@ WebUI.sendKeys(findTestObject('H2/Work Order/input__Asal Unit Entry'), Keys.chor
 'Add Customer Complaint'
 WebUI.click(findTestObject('H2/Work Order/button_Tambah Keluhan Customer'))
 
-'Verify Customer Complaint Popup'
+'Verify Complaint Input Popup is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Input Keluhan'), 10)
 
-'Select Customer Complaint'
+'Select Complaint Type'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Keluhan'), Keluhan, true)
 
 'Submit Customer Complaint'
 WebUI.click(findTestObject('H2/Work Order/button_Kirim Input Keluhan'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Select Work Execution by Mechanic'
 WebUI.click(findTestObject('H2/Work Order/rdr_Langsung dikerjakan oleh mekanik'))
 
-'Confirm Spare Parts are Taken'
+'Confirm Spare Parts Taken'
 WebUI.click(findTestObject('H2/Work Order/rdr_Ya Spare Part Dibawa'))
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Open Data Carrier Tab'
 WebUI.click(findTestObject('H2/Work Order/tab_Data Pembawa'))
@@ -77,17 +86,23 @@ WebUI.click(findTestObject('H2/Work Order/tab_Data Pembawa'))
 'Select Same as Owner Checkbox'
 WebUI.click(findTestObject('H2/Work Order/input_Sama Dengan Pemilik'))
 
-'Select Carrier-Owner Relationship'
+'Select Relationship Between Carrier and Owner'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Hubungan Pembawa dan Pemilik'), HubunganPembawa, true)
 
 'Select Reason for Visiting AHASS'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Alasan Datang ke AHASS'), AlasanDatang, true)
 
-'Save Data Carrier Information'
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Save Data Carrier'
 WebUI.click(findTestObject('H2/Work Order/button_Simpan Data Pembawa'))
 
-'Verify Data Carrier Popup'
+'Verify Data Carrier Popup is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Data Pembawa'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Close Data Carrier Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Popup Data Pembawa'))
@@ -98,12 +113,18 @@ WebUI.doubleClick(findTestObject('H2/Work Order/canvas_SA'))
 'Sign on Customer Canvas'
 WebUI.doubleClick(findTestObject('H2/Work Order/canvas_Customer'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Click Create Work Order Button'
 WebUI.click(findTestObject('H2/Work Order/button_Buat WO'))
 
-'Verify Work Order Popup'
+'Verify Work Order Popup is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Work Order'), 10)
 
-'Click OK on Work Order Popup'
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Close Work Order Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Work Order'))
 

@@ -24,4 +24,9 @@
       <initValue>'admin'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>timestamp</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

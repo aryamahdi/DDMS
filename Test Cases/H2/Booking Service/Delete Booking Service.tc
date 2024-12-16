@@ -1,9 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case verifies that a user can successfully delete a booking service in the H2 application. The test ensures the deletion process works as expected, confirms that the selected booking service is removed from the system, and validates that no unintended data is affected.</description>
    <name>Delete Booking Service</name>
-   <tag></tag>
+   <tag>Booking Service</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>13482d5c-9ac8-4c75-903d-e5b8b8171320</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40b68e48-7066-42c9-ba14-b3e232262b80</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0780d136-03d7-4b06-883b-f0b4ae067fea</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Nomor Polisi'</defaultValue>
+      <description></description>
+      <id>40b68e48-7066-42c9-ba14-b3e232262b80</id>
+      <masked>false</masked>
+      <name>Item</name>
+   </variable>
+   <variable>
+      <defaultValue>'B 0001 AAA'</defaultValue>
+      <description></description>
+      <id>0780d136-03d7-4b06-883b-f0b4ae067fea</id>
+      <masked>false</masked>
+      <name>Search</name>
+   </variable>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case verifies that a user can successfully create a work order for a promotional activity in the H2 application. The test ensures that all necessary details for the promo work order are correctly entered, validates the input fields, and confirms that the work order is created and saved in the system with the correct promo-related information.</description>
    <name>Create Work Order - Promo</name>
-   <tag></tag>
+   <tag>Work Order</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a2d8408a-a053-4d29-a4a6-1ddcdc7e5e34</testCaseGuid>
@@ -153,7 +153,7 @@
       <name>NoPolisi1</name>
    </variable>
    <variable>
-      <defaultValue>'0001'</defaultValue>
+      <defaultValue>'0002'</defaultValue>
       <description></description>
       <id>70430323-419c-4039-93e7-7ecce3fafa9e</id>
       <masked>false</masked>
@@ -174,7 +174,7 @@
       <name>KMMotor</name>
    </variable>
    <variable>
-      <defaultValue>'COMPANY/PERUSAHAAN SWASTA/BUMN'</defaultValue>
+      <defaultValue>'REMINDER WA'</defaultValue>
       <description></description>
       <id>2aa03f6c-397b-43dd-a459-9a88354488ae</id>
       <masked>false</masked>

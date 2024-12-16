@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cancel Work Order</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ab000134-515f-46e5-a0dc-31a6198747eb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>eef5c036-33fe-4a27-b7ca-752a66a96f0d</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>1</value>
+      </iterationEntity>
+      <testDataId>Data Files/List Item Search List Work Order</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ad245a29-4c0e-4339-94a3-893239567aca</id>
+      <iterationEntity>
+         <iterationType>SPECIFIC</iterationType>
+         <value>1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Master Unit Customer</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>eef5c036-33fe-4a27-b7ca-752a66a96f0d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Item</value>
+      <variableId>9b20b77a-d29f-44db-bdd8-4484aed46a3d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ad245a29-4c0e-4339-94a3-893239567aca</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>NoPolisi</value>
+      <variableId>2476c9bb-7994-4ee3-bbf1-0f28219b8059</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b20b77a-d29f-44db-bdd8-4484aed46a3d</id>
+      <masked>false</masked>
+      <name>Item</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2476c9bb-7994-4ee3-bbf1-0f28219b8059</id>
+      <masked>false</masked>
+      <name>NoPolisi</name>
+   </variable>
+</TestCaseEntity>

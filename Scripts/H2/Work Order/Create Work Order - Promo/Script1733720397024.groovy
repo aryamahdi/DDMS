@@ -41,6 +41,9 @@ WebUI.setText(findTestObject('H2/Work Order/input__No Polisi (Belakang)'), NoPol
 'Click Load Data Button'
 WebUI.click(findTestObject('H2/Work Order/button_Memuat Data'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Enter KM Reading'
 WebUI.setText(findTestObject('H2/Work Order/input__KM Motor'), KMMotor)
 
@@ -65,11 +68,17 @@ WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Keluhan'), Keluha
 'Submit Customer Complaint'
 WebUI.click(findTestObject('H2/Work Order/button_Kirim Input Keluhan'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Select Work Execution by Mechanic'
 WebUI.click(findTestObject('H2/Work Order/rdr_Langsung dikerjakan oleh mekanik'))
 
 'Confirm Spare Parts Taken'
 WebUI.click(findTestObject('H2/Work Order/rdr_Ya Spare Part Dibawa'))
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Open Data Carrier Tab'
 WebUI.click(findTestObject('H2/Work Order/tab_Data Pembawa'))
@@ -83,11 +92,17 @@ WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Hubungan Pembawa 
 'Select Reason for Visiting AHASS'
 WebUI.selectOptionByValue(findTestObject('H2/Work Order/select_Alasan Datang ke AHASS'), AlasanDatang, true)
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Save Data Carrier'
 WebUI.click(findTestObject('H2/Work Order/button_Simpan Data Pembawa'))
 
 'Verify Data Carrier Popup is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Data Pembawa'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Close Data Carrier Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Popup Data Pembawa'))
@@ -95,17 +110,26 @@ WebUI.click(findTestObject('H2/Work Order/button_Ok Popup Data Pembawa'))
 'Click Check Promo Button'
 WebUI.click(findTestObject('H2/Work Order/button_Cek Promo'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Sign on SA Canvas'
 WebUI.doubleClick(findTestObject('H2/Work Order/canvas_SA'))
 
 'Sign on Customer Canvas'
 WebUI.doubleClick(findTestObject('H2/Work Order/canvas_Customer'))
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Click Create Work Order Button'
 WebUI.click(findTestObject('H2/Work Order/button_Buat WO'))
 
 'Verify Work Order Popup is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Work Order/popup_Work Order'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Close Work Order Popup'
 WebUI.click(findTestObject('H2/Work Order/button_Ok Work Order'))

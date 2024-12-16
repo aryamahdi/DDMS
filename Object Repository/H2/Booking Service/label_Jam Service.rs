@@ -6,16 +6,16 @@
    <elementGuidId>c765d2cb-1c22-4725-9ed9-f23d52bc22cf</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '${jamid}' or . = '${jamid}')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#g57Pn00-cnt</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//label[@id='g57Pn00-cnt']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '17:00-18:00' or . = '17:00-18:00')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>62516be5-629c-4fe2-a0b3-0f7353a05a90</webElementGuid>
+      <webElementGuid>2a6de0a4-46df-4362-a67b-cb634587dc88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>for</name>
       <type>Main</type>
       <value>g57Pn00-real</value>
-      <webElementGuid>f027567f-0bac-42bb-8bd9-607da6eb6a5e</webElementGuid>
+      <webElementGuid>b5d444b3-90e3-4a65-8d8b-96eefd53ec2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>g57Pn00-cnt</value>
-      <webElementGuid>ddca7e67-a870-4c33-8928-8c2acbb0b165</webElementGuid>
+      <webElementGuid>664b8d8f-379c-4eb2-a76f-927383af6e0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,15 +57,15 @@
       <name>class</name>
       <type>Main</type>
       <value>z-radio-content</value>
-      <webElementGuid>4283c1a1-47ab-4f2a-9610-714eb120ae56</webElementGuid>
+      <webElementGuid>6e985ebc-41d3-4020-b1e0-cdf88f7e7fee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>17:00-18:00</value>
-      <webElementGuid>72d4ba0f-bd55-4723-9320-53e6cfad7403</webElementGuid>
+      <value>${jamid}</value>
+      <webElementGuid>d209efdc-e07c-4dab-915c-da11e00193dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;g57Pn00-cnt&quot;)</value>
-      <webElementGuid>cba5dfa5-e433-45ca-90fa-c47c777212d8</webElementGuid>
+      <webElementGuid>9c7eef6d-1def-4d7a-935f-651a7b673c08</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='g57Pn00-cnt']</value>
-      <webElementGuid>1627a199-74bb-4573-9bfe-2df7b30f94b6</webElementGuid>
+      <webElementGuid>3ae47591-4411-4314-8560-311705bc1463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//span[@id='g57Pn00']/label</value>
-      <webElementGuid>af14338c-6076-4f1c-94db-ade057f73c8f</webElementGuid>
+      <webElementGuid>41e0c3e8-bfd5-4d3d-9d45-c6e4845defe9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[2]/following::label[11]</value>
-      <webElementGuid>a14ee009-2d41-4a05-8172-593a9e70cfdd</webElementGuid>
+      <webElementGuid>037390dd-d132-4e61-8575-83fba891600e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Waktu Service'])[1]/following::label[11]</value>
-      <webElementGuid>c4c95771-a750-4b4e-9739-4372a944951b</webElementGuid>
+      <webElementGuid>0479d32e-58ac-4034-900b-ab84e2fc6981</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Waktu Service'])[2]/preceding::label[13]</value>
-      <webElementGuid>999c8b76-1621-4bf4-a603-0c20f0e98f37</webElementGuid>
+      <webElementGuid>f74affb9-3915-47da-8a1e-57dfddbcfc3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='11:00-12:00']/parent::*</value>
-      <webElementGuid>5f5448ca-c2e9-4dfa-adcd-0ada15896e34</webElementGuid>
+      <webElementGuid>fa41f257-4163-40dd-89f0-8c32bf33606f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span[11]/label</value>
-      <webElementGuid>a4633bdb-5f4c-4672-a6be-1ef0e83aba2a</webElementGuid>
+      <webElementGuid>d6da3f67-c026-4c0c-8130-238563c9caa0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,6 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@id = 'g57Pn00-cnt' and (text() = '11:00-12:00' or . = '11:00-12:00')]</value>
-      <webElementGuid>efab6072-0b66-452a-858f-f257998465b2</webElementGuid>
+      <webElementGuid>94cb1b7c-70a6-4f60-9174-3550830ea8e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

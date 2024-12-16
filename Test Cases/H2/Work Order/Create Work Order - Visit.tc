@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>This test case verifies that a user can successfully create a work order for a visit in the H2 application. The test ensures that all required fields for the work order are filled correctly, validates user input, and confirms that the work order is created and stored in the system with accurate details for the visit.</description>
    <name>Create Work Order - Visit</name>
-   <tag></tag>
+   <tag>Work Order</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>289f1e55-56c0-4fd1-b934-5f8d4c065169</testCaseGuid>
@@ -174,7 +174,7 @@
       <name>KMMotor</name>
    </variable>
    <variable>
-      <defaultValue>'COMPANY/PERUSAHAAN SWASTA/BUMN'</defaultValue>
+      <defaultValue>'REMINDER WA'</defaultValue>
       <description></description>
       <id>051c2ca1-034c-492f-aa87-195509aa12e5</id>
       <masked>false</masked>

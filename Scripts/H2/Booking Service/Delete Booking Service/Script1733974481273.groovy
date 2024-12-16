@@ -26,14 +26,20 @@ WebUI.click(findTestObject('H2/Dashboard/link_Monitoring Booking Service'))
 'Verify Monitoring Booking Service Page is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Booking Service/label_Monitoring Booking Service'), 10)
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Select Item by License Plate'
-WebUI.selectOptionByValue(findTestObject('H2/Booking Service/select_Pilih item'), 'Nomor Polisi', true)
+WebUI.selectOptionByValue(findTestObject('H2/Booking Service/select_Pilih item'), Item, true)
 
 'Enter License Plate Number in Search Field'
-WebUI.setText(findTestObject('H2/Booking Service/input_Cari Item'), 'B 0001 AAA')
+WebUI.setText(findTestObject('H2/Booking Service/input_Cari Item'), Search)
 
 'Click Search Item Button'
 WebUI.click(findTestObject('H2/Booking Service/button_Cari Item'))
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Click Delete Booking Service Button'
 WebUI.click(findTestObject('H2/Booking Service/button_Delete'))
@@ -41,11 +47,17 @@ WebUI.click(findTestObject('H2/Booking Service/button_Delete'))
 'Verify Delete Confirmation Popup is Displayed'
 WebUI.verifyElementNotPresent(findTestObject('H2/Booking Service/popup_Konfirmasi Delete'), 10)
 
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
 'Confirm Deletion'
 WebUI.click(findTestObject('H2/Booking Service/button_OK'))
 
 'Verify Success Message for Deletion is Displayed'
 WebUI.verifyElementPresent(findTestObject('H2/Booking Service/popup_Booking Service berhasil dihapus'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
 
 'Close Success Message Popup'
 WebUI.click(findTestObject('H2/Booking Service/button_OK'))

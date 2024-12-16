@@ -6,4 +6,17 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>2a201250-64ae-4e71-a3fd-f4666639bcc4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>20f2af33-b901-4426-a39c-b2f08ec1436e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'AA 1010 DWI'</defaultValue>
+      <description></description>
+      <id>20f2af33-b901-4426-a39c-b2f08ec1436e</id>
+      <masked>false</masked>
+      <name>NoPolisi</name>
+   </variable>
 </TestCaseEntity>

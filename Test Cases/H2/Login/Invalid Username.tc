@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case verifies that the system displays an appropriate error message when a user attempts to log in to the H2 application with an invalid username and a valid password. The test ensures the application prevents unauthorized access and handles incorrect input gracefully.</description>
+   <name>Invalid Username</name>
+   <tag>Login,Negative Test Case</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6439705-45a6-4974-b66b-71454ffac277</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40599c20-cd27-4cde-9da5-486d9b38cca2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Invalid'</defaultValue>
+      <description></description>
+      <id>40599c20-cd27-4cde-9da5-486d9b38cca2</id>
+      <masked>false</masked>
+      <name>InvalidUsername</name>
+   </variable>
+</TestCaseEntity>

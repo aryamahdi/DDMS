@@ -3,19 +3,15 @@
    <description></description>
    <name>button_Ok Panduan Service Visit</name>
    <tag></tag>
-   <elementGuidId>3c5904a0-5666-402b-8b1e-266f7ae434f1</elementGuidId>
+   <elementGuidId>61cad8ce-344a-4f67-909a-0f28d5dcc072</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//body[1]/div[4]/div[1]/div[4]/div[1]/div[1]/button[1][count(. | //*[(text() = 'OK' or . = 'OK')]) = count(//*[(text() = 'OK' or . = 'OK')])]</value>
+         <key>CSS</key>
+         <value>#bJDZt40</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value> </value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#g3BQt40</value>
+         <value>//button[@id='bJDZt40']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,31 +29,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b6ef14ef-280d-4a96-b15b-7539323010bb</webElementGuid>
+      <webElementGuid>5ca9cb36-4266-4f0a-8378-bc01b5c97c07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e33e7d14-bfca-4226-85d0-ac9b1cefd364</webElementGuid>
+      <webElementGuid>52940507-8e55-4069-a96d-5cac74466ee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>g3BQt40</value>
-      <webElementGuid>7efcdff7-7955-4ba7-affd-13d6d9aff545</webElementGuid>
+      <value>bJDZt40</value>
+      <webElementGuid>bf7d1b94-6b23-420c-ab08-dec4c92c7f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>z-button</value>
-      <webElementGuid>c2664a08-a7a4-4f4f-9740-e3cb33fbddb6</webElementGuid>
+      <webElementGuid>040f8ccd-9812-48e0-8ad8-9ddd79868293</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,31 +61,31 @@
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
-      <webElementGuid>6599f8c6-62a9-474c-889b-4a1b8797ae07</webElementGuid>
+      <webElementGuid>b6f6c2c6-6e8a-4aab-baa2-b59bf408a086</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//body[1]/div[4]/div[1]/div[4]/div[1]/div[1]/button[1]</value>
-      <webElementGuid>3133ea8b-6ab1-4df4-b494-30229c0d4380</webElementGuid>
+      <value>id(&quot;bJDZt40&quot;)</value>
+      <webElementGuid>85cdd24b-b8e5-404f-8194-e36caf1d1b0c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='g3BQt40']</value>
-      <webElementGuid>b2b2c686-1bba-4afb-bfa7-d2cfa944c206</webElementGuid>
+      <value>//button[@id='bJDZt40']</value>
+      <webElementGuid>2f95e3c7-03b8-4169-9ff8-1845b010d519</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='g3BQq40']/button</value>
-      <webElementGuid>1d1edd46-7371-411f-aaf2-9e5de98b2123</webElementGuid>
+      <value>//div[@id='bJDZq40']/button</value>
+      <webElementGuid>04c35b8a-e50b-45dc-a6d1-54d61e321692</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='[ 1 - 4 / 4 ]'])[1]/following::button[1]</value>
-      <webElementGuid>1b877f73-69ad-4d6b-a4e8-d0d79eca766e</webElementGuid>
+      <webElementGuid>743e5a29-d256-44d1-a117-c177da56603b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/ 1'])[7]/following::button[1]</value>
-      <webElementGuid>ff99e931-2cc3-4e7a-aa00-6b4b9682c5b8</webElementGuid>
+      <webElementGuid>dbb0f145-9cc9-4ddf-b4fa-1f1f003438a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>95b8d236-88d6-470a-b3fc-7aacd3e44e4a</webElementGuid>
+      <webElementGuid>7b48ec37-6726-465f-b0a4-70c3dad8c716</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,14 +117,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/div[4]/div/div/button</value>
-      <webElementGuid>c57410f2-cec7-47a0-b069-7d6043f8a92a</webElementGuid>
+      <webElementGuid>5b8666c1-a691-4166-aead-cdcf2bf1b9b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and @id = 'g3BQt40' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>388aa165-63b4-408c-9b67-488853434479</webElementGuid>
+      <value>//button[@type = 'button' and @id = 'bJDZt40' and (text() = 'OK' or . = 'OK')]</value>
+      <webElementGuid>36fc6812-21ea-40bd-9131-5f1715a769eb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

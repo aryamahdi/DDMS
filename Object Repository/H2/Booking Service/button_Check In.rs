@@ -6,6 +6,10 @@
    <elementGuidId>aa95703c-a697-4d29-aa11-017a3fab9ba8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'z-a' and @href = 'javascript:;' and (text() = 'Check In' or . = 'Check In')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#g57Pzn</value>
       </entry>
@@ -14,7 +18,7 @@
          <value>//a[@id='g57Pzn']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,23 +33,23 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>6739b80f-359d-4bfd-8381-3053686966eb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>g57Pzn</value>
-      <webElementGuid>fb19e57d-3cf7-4196-9486-a5f22131c3a7</webElementGuid>
+      <webElementGuid>60563d8e-7d0d-4936-9413-bb1245534db2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>g57Pzn</value>
+      <webElementGuid>7c994253-c8c9-4efe-b9a0-8d7da92de7c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>z-a</value>
-      <webElementGuid>b49e0333-8794-4602-ba1e-8c0ba6558ede</webElementGuid>
+      <webElementGuid>ea3adfba-d489-4573-bb61-8b80ef449e5d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>href</name>
       <type>Main</type>
       <value>javascript:;</value>
-      <webElementGuid>4a65fe9d-f2e4-4097-9378-12b335a34f55</webElementGuid>
+      <webElementGuid>1c9b7306-c2e2-4938-b912-41f81aafdba0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Check In</value>
-      <webElementGuid>ed6c9acc-778d-48bb-a92d-274fdc6d8bf2</webElementGuid>
+      <webElementGuid>9e91bc30-7a0d-49ca-97cf-1b172efdbf97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;g57Pzn&quot;)</value>
-      <webElementGuid>4dab16d8-3138-40bf-9050-e1f1d1fbefd5</webElementGuid>
+      <webElementGuid>83fc4235-48b7-4ce9-bfa6-1f60b97f49c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//a[@id='g57Pzn']</value>
-      <webElementGuid>f06d979e-dd42-4423-9c50-4a40ad0c64d6</webElementGuid>
+      <webElementGuid>9e44ca78-1bd8-442a-a900-880e9f3cfb2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='g57P_o']/a</value>
-      <webElementGuid>ef128ca7-cd0d-4299-9b37-46563768107c</webElementGuid>
+      <webElementGuid>09745015-619d-4714-a64c-2dd98db1f7a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Check In')]</value>
-      <webElementGuid>a4d29f94-b515-4c41-a5e0-d853c83adfd2</webElementGuid>
+      <webElementGuid>7f230e48-6f73-47c9-803f-390a816957cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DDMS CRM'])[1]/following::a[1]</value>
-      <webElementGuid>e8eb78be-233e-433a-9f90-422e5cef5e98</webElementGuid>
+      <webElementGuid>c9cea9c1-3aa9-4899-8c30-1dc938e6c8d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='REGULER'])[1]/following::a[1]</value>
-      <webElementGuid>63a140e8-a775-40f4-8a61-9d3244304b3d</webElementGuid>
+      <webElementGuid>bea58473-f37d-4f79-a052-dded79e2dfb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOOKED'])[1]/preceding::a[1]</value>
-      <webElementGuid>27605dd6-fa30-43f6-b64d-c7895a5da88e</webElementGuid>
+      <webElementGuid>0285daee-9f16-42ff-88e3-1738833c9cd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BS-X6979-00001249'])[1]/preceding::a[1]</value>
-      <webElementGuid>74bbd056-632b-4a35-953e-d52310ab8d16</webElementGuid>
+      <webElementGuid>b8f60351-168b-49ea-82b4-3510d7a681a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'javascript:;')])[2]</value>
-      <webElementGuid>6fc062f2-e3f9-462d-bc36-744dfe986408</webElementGuid>
+      <webElementGuid>650f29a3-9f45-4473-94ae-c905ab200f71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +145,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>afc1c082-9c9f-4c09-9275-5027a64eeeaa</webElementGuid>
+      <webElementGuid>675da89c-7971-43e2-8eb7-dc51ee1448e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,6 +153,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@id = 'g57Pzn' and @href = 'javascript:;' and (text() = 'Check In' or . = 'Check In')]</value>
-      <webElementGuid>2792f378-e880-4079-bfa0-d71613432b8d</webElementGuid>
+      <webElementGuid>d093d63d-4ec2-4513-a972-7497c86d59a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,10 +27,10 @@ WebUI.click(findTestObject('H2/Dashboard/link_Monitoring Booking Service'))
 WebUI.verifyElementPresent(findTestObject('H2/Booking Service/label_Monitoring Booking Service'), 10)
 
 'Select Item by License Plate'
-WebUI.selectOptionByValue(findTestObject('H2/Booking Service/select_Pilih item'), 'Nomor Polisi', true)
+WebUI.selectOptionByValue(findTestObject('H2/Booking Service/select_Pilih item'), Item, true)
 
 'Enter License Plate Number in Search Field'
-WebUI.setText(findTestObject('H2/Booking Service/input_Cari Item'), 'B 0001 AAA')
+WebUI.setText(findTestObject('H2/Booking Service/input_Cari Item'), Search)
 
 'Click Search Item Button'
 WebUI.click(findTestObject('H2/Booking Service/button_Cari Item'))
@@ -39,5 +39,26 @@ WebUI.click(findTestObject('H2/Booking Service/button_Cari Item'))
 WebUI.click(findTestObject('H2/Booking Service/button_Edit'))
 
 'Verify Booking Service Popup is Displayed'
-WebUI.verifyElementPresent(findTestObject('H2/Booking Service/label_Booking Service'), 0)
+WebUI.verifyElementPresent(findTestObject('H2/Booking Service/label_Booking Service'), 10)
+
+'Create Booking Service Data'
+WebUI.click(findTestObject('H2/Booking Service/button_Buat Data Booking'))
+
+'Verify Confirmation Popup is Displayed'
+WebUI.verifyElementPresent(findTestObject('H2/Booking Service/popup_Simpan'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Confirm Booking Creation'
+WebUI.click(findTestObject('H2/Booking Service/button_OK'))
+
+'Verify Success Popup is Displayed'
+WebUI.verifyElementPresent(findTestObject('H2/Booking Service/popup_Data berhasil disimpan'), 10)
+
+'Take Screenshot'
+WebUI.takeScreenshot([('text') : GlobalVariable.timestamp])
+
+'Close Success Popup'
+WebUI.click(findTestObject('H2/Booking Service/button_OK'))
 

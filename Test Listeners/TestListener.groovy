@@ -29,7 +29,9 @@ class TestListener {
 	 */
 	@BeforeTestCase
 	def BeforeTestCase(TestCaseContext testCaseContext) {
-		WebUI.callTestCase(findTestCase('H2/Login/Login - Valid Credential'), [('Lokasi') : 'Ahass Induk'], FailureHandling.STOP_ON_FAILURE)
+		def timestamp = new Date().format('dd-MM-yyyy ss:mm:HH') // Adjust format as needed
+		GlobalVariable.timestamp = timestamp
+		WebUI.callTestCase(findTestCase('H2/Login/Valid Credential'), [('Lokasi') : 'Ahass Induk'], FailureHandling.STOP_ON_FAILURE)
 	}
 
 	/**

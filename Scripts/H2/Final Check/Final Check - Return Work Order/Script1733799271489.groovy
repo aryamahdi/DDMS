@@ -17,3 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.click(findTestObject('H2/Dashboard/ddl_Work Order'))
+
+WebUI.click(findTestObject('H2/Dashboard/link_Final Check'))
+
+WebUI.click(findTestObject('H2/Final Check/button_Refresh'))
+
+WebUI.setText(findTestObject('H2/Final Check/input_Cari No Polisi'), NoPolisi)
+
+WebUI.click(findTestObject('H2/Final Check/button_Cari'))
+
+WebUI.click(findTestObject('H2/Final Check/button_Return'))
+
+WebUI.verifyElementPresent(findTestObject('H2/Final Check/popup_Apakah Anda yakin'), 10)
+
+WebUI.click(findTestObject('H2/Final Check/button_Cancel Popup'))
+

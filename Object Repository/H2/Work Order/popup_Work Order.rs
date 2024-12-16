@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html/body/div[5]</value>
+         <value>//div[@class = 'z-messagebox z-div']</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
          <value>#g3BQ9s</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -28,12 +28,12 @@
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ef5eb30c-778d-4f5d-8349-f78c207d196b</webElementGuid>
+      <webElementGuid>25307f46-40ce-4b76-8fc7-80ab16c9d885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,15 +41,15 @@
       <name>id</name>
       <type>Main</type>
       <value>g3BQ9s</value>
-      <webElementGuid>dbc9bc75-fb59-49ec-9f15-d3a922c92790</webElementGuid>
+      <webElementGuid>9cbdb096-2664-40b8-a397-57595d5fc877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>z-messagebox-window  z-window z-window-highlighted z-window-shadow</value>
-      <webElementGuid>ddae2442-2601-42e7-9b53-f8d4ebb904d7</webElementGuid>
+      <value>z-messagebox z-div</value>
+      <webElementGuid>cf3933af-713d-4234-96f7-15a8691e6f69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,15 +57,15 @@
       <name>text</name>
       <type>Main</type>
       <value>ZK</value>
-      <webElementGuid>021f30be-e36c-4429-9c1b-ec33f61afc30</webElementGuid>
+      <webElementGuid>6e93805f-afbd-48aa-8d5c-724ea128e5e8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
       <value>/html/body/div[5]</value>
-      <webElementGuid>6fa8aa3f-aabc-44f7-bc37-b645db0608dd</webElementGuid>
+      <webElementGuid>46205af0-d562-4091-ab8b-dcbe93b3b5e0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='g3BQ9s']</value>
-      <webElementGuid>b8a94d06-7809-4187-af9c-8b68881f7950</webElementGuid>
+      <webElementGuid>2b748b28-b711-4f76-870a-eea52b592d17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
-      <webElementGuid>c5511f00-a929-4e38-a1a1-82fd59ee1e11</webElementGuid>
+      <webElementGuid>ea98e777-eeee-42c8-a07c-7975009aaf3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]</value>
-      <webElementGuid>4bee55a3-7f31-4ffb-a9d0-49b7fdb26816</webElementGuid>
+      <webElementGuid>07309ac1-21e6-41c5-ba53-7f540e4be7c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
  Tipe Pit : REGULER OK' or . = 'ZK Data Workorder dengan nomor VST-X6979-24-12-00003 berhasil disimpan.
  Nomor Antrian Anda : null.
  Tipe Pit : REGULER OK')]</value>
-      <webElementGuid>92fe22dd-57cf-481a-b55f-4b6e0c7ab958</webElementGuid>
+      <webElementGuid>82ee3632-fd9d-4210-b806-9256f605f03a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
